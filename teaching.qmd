@@ -3,6 +3,7 @@ title: "Teaching"
 filters:
    - lightbox
 lightbox: auto
+freeze: auto
 ---
 
 ## Teaching goals

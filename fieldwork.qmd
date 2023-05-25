@@ -3,6 +3,7 @@ title: "Fieldwork"
 filters:
    - lightbox
 lightbox: auto
+freeze: auto
 ---
 
 These are a selection of photos from places at which I have had the immense privilege to work.

@@ -1,5 +1,6 @@
 ---
 title: "Data Science"
+freeze: auto
 ---
 
 ## Data visualization
@@ -43,4 +44,4 @@ Data and analysis to accompany Bui et al., "Soil fungal community composition an
 
 ## Code notes
 
-I created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I've left a few "code notes" at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on [Sam Csik](https://samanthacsik.github.io/)'s Quarto resources, including ["Creating your personal website using Quarto"](https://ucsb-meds.github.io/creating-quarto-websites/), ["Customizing Quarto Websites"](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), and ["Adding a blog to your existing Quarto website"](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/). The Github repo for this site is [here](https://github.com/an-bui/an-bui). Happy Quarto-ing!
+I created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I've left a few "code notes" at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on [Sam Csik](https://samanthacsik.github.io/)'s Quarto resources, including ["Creating your personal website using Quarto"](https://ucsb-meds.github.io/creating-quarto-websites/), ["Customizing Quarto Websites"](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), and ["Adding a blog to your existing Quarto website"](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/). The Github repo for this site is [here](https://github.com/an-bui/website). Happy Quarto-ing!
