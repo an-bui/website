@@ -201,12 +201,5 @@
     "title": "Publications",
     "section": "Code note",
     "text": "Code note\nI battled for a long time to make the reverse numbered list on this page work. If you want to implement this on your own website, the code for this page is here."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
