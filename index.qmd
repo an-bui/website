@@ -1,7 +1,84 @@
 ---
-title: "website"
+image: images/headshot-square.jpg
+about: 
+  template: trestles
+  image-shape: round
+  links:
+    - icon: twitter 
+      text: Twitter
+      href: https://twitter.com/_anbui
+    - icon: github 
+      text: GitHub
+      href: https://github.com/an-bui
+    - icon: envelope 
+      text: Email
+      href: mailto:an_bui@ucsb.edu
 ---
 
-This is a Quarto website.
+## About me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a community ecologist at UC Santa Barbara in the Ecology, Evolution, and Marine Biology department. I use trait-based approaches to understand community responses to disturbance. Currently, I work in kelp forest systems focusing on algal recovery dynamics in the [Santa Barbara Coastal Long Term Ecological Research site](https://sbclter.msi.ucsb.edu/).
+
+------------------------------------------------------------------------
+
+## Current position
+
+<p class="custom-subtitle">
+
+**PhD Candidate**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+
+------------------------------------------------------------------------
+
+## Education
+
+::: topbr
+<p class="custom-subtitle">
+
+{{< fa graduation-cap title="A graduation cap" >}} **MA in Ecology, Evolution & Marine Biology, 2020**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+
+<p class="custom-subtitle">
+
+{{< fa graduation-cap title="A graduation cap" >}} **BS in Ecology, Evolution, and Marine Biology, 2015**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+:::
+
+<p class="custom-subtitle">
+
+{{< fa graduation-cap title="A graduation cap" >}} **BA in English, 2015**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+
+</div>
+
+------------------------------------------------------------------------
+
+## 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>An Bui</title>
+<title>An Bui - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,9 +31,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/waves.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -58,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -85,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -121,92 +155,96 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
-  <li><a href="#current-position" id="toc-current-position" class="nav-link" data-scroll-target="#current-position">Current position</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="fungi">fungi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/headshot-square.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
-    <div class="about-links">
-  <a href="https://twitter.com/_anbui" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com/an-bui" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:an_bui@ucsb.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
 </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+  
 
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>I am a community ecologist at UC Santa Barbara in the Ecology, Evolution, and Marine Biology department. I use trait-based approaches to understand community responses to disturbance. Currently, I work in kelp forest systems focusing on algal recovery dynamics in the <a href="https://sbclter.msi.ucsb.edu/">Santa Barbara Coastal Long Term Ecological Research site</a>.</p>
-<hr>
-</section>
-<section id="current-position" class="level2">
-<h2 data-anchor-id="current-position">Current position</h2>
-<p class="custom-subtitle">
-</p><p><strong>PhD Candidate</strong></p>
-<p></p>
-<p class="custom-subtitle2">
-</p><p>University of California, Santa Barbara</p>
-<p></p>
-<hr>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<div class="topbr">
-<p class="custom-subtitle">
-</p><p> <strong>MA in Ecology, Evolution &amp; Marine Biology, 2020</strong></p>
-<p></p>
-<p class="custom-subtitle2">
-</p><p>University of California, Santa Barbara</p>
-<p></p>
-<p class="custom-subtitle">
-</p><p> <strong>BS in Ecology, Evolution, and Marine Biology, 2015</strong></p>
-<p></p>
-<p class="custom-subtitle2">
-</p><p>University of California, Santa Barbara</p>
-<p></p>
+</header>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="fungi,research" data-listing-date-sort="1600758000000" data-listing-file-modified-sort="1685050691564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./research/2020-09_soil-fungi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./research/2020-09_soil-fungi/research_fungi-oaks.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Soil fungal community composition and function in a changing climate
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('fungi'); return false;">
+fungi
 </div>
-<p class="custom-subtitle">
-</p><p> <strong>BA in English, 2015</strong></p>
-<p></p>
-<p class="custom-subtitle2">
-</p><p>University of California, Santa Barbara</p>
-<p></p>
-</section></main></div>
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
+research
 </div>
 </div>
-<hr>
+<div class="card-text listing-description">
+Over changing climatic conditions, fungal community composition may differ, but for some mutualist groups, their function could be retained.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
-<section id="section" class="level2">
-<h2 data-anchor-id="section"></h2>
+</div>
+<div class="listing-date">
+Sep 22, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1685050699817" data-listing-reading-time-sort="2">
+<a href="./research/2021-09_algae-traits/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="research/2021-09_algae-traits/research_traits.jpg" alt="Scan of Cryptopleura ruprechtiana, a marine macroalgae, on a white background. There is a ruler on the left for scale, and the sample tag is in the bottom left corner." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Marine macroalgae functional traits
+</h5>
+<div class="card-text listing-description">
+Functional traits can reveal life history strategies for algal species in the Santa Barbara Coastal Long Term Ecological Research Site.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-
-
-</section>
-
- <!-- /main -->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -227,6 +265,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -433,7 +478,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 

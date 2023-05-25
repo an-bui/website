@@ -1,0 +1,46 @@
+---
+title: "Data Science"
+---
+
+## Data visualization
+
+Data visualization is one of my favorite parts of my job, so I started writing about it and compiling resources I like in [a blog](https://an-bui.github.io/figs/).
+
+## Workshops
+
+### Figures in `ggplot`
+
+This is a workshop on figure customization using `ggplot` and associated packages given for UCSB EEMB R Seminar in Winter 2023.\
+- [Github repository](https://github.com/an-bui/figures-in-ggplot)\
+- [knitted code](https://an-bui.github.io/figures-in-ggplot/code/ggplot-code-workshop)\
+- [Blog summary](https://an-bui.github.io/figs/posts/2023-02-13_EEMB-R-seminar_figures-in-ggplot/)
+
+### Community analysis using `vegan`
+
+This is a workshop on basic tools for community analysis in `vegan` that was given for UCSB EEMB and UCSC SCRUBs.\
+- [RPubs: vegan cheat sheet](https://rpubs.com/an-bui/vegan-cheat-sheet)
+
+### Putting the FUN in functions
+
+This is a workshop on writing functions in R, with editing from [Sam Csik](https://github.com/samanthacsik) and [Juliette Verstaen](https://www.julietteverstaen.com/).\
+- [RPubs](https://rpubs.com/an-bui/fun-functions)\
+- [Github repository](https://github.com/an-bui/RLadiesSB-FUNctions)\
+- [learnr tutorial](https://an-bui.shinyapps.io/FUNctions-learnR/)
+
+## Packages
+
+### `calecopal`: a California-inspired package of color palettes
+
+This is a collection of 45 color palettes, all inspired by California ecosystems. This was built with [Heili Lowman](https://www.heililowman.com/) and [Ana Sofia Guerra](https://www.anasofiaguerra.com/), and code was taken directly from Karthik Ram's `wesanderson` package.\
+- [Github repository](https://github.com/an-bui/calecopal)
+
+## Publications
+
+### Fungal community data
+
+Data and analysis to accompany Bui et al., "Soil fungal community composition and functional similarity shift across distinct climatic conditions." FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193.\
+- [Github repository](https://zenodo.org/badge/latestdoi/221615362)
+
+## Code notes
+
+I created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I've left a few "code notes" at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on [Sam Csik](https://samanthacsik.github.io/)'s Quarto resources, including ["Creating your personal website using Quarto"](https://ucsb-meds.github.io/creating-quarto-websites/), ["Customizing Quarto Websites"](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), and ["Adding a blog to your existing Quarto website"](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/). The Github repo for this site is [here](https://github.com/an-bui/an-bui). Happy Quarto-ing!

@@ -1,0 +1,94 @@
+---
+title: "Fieldwork"
+filters:
+   - lightbox
+lightbox: auto
+---
+
+These are a selection of photos from places at which I have had the immense privilege to work.
+
+## Santa Barbara Coastal Long-Term Ecological Research sites, California
+
+::: {layout="[[1, 1, 1, 1]]"}
+![](images/ivee-kelp.jpeg){group="SBC"
+description="Kelp off Isla Vista Reef, Summer 2021."}
+
+![](images/mohk-kelp1.jpeg){group="SBC"
+description="Kelp off Mohawk Reef, Summer 2021."}
+
+![](images/mohk-kelp2.jpeg){group="SBC"
+description="Kelp off Mohawk Reef, Summer 2021."}
+
+![](images/white-shark.jpeg){group="SBC"
+description="White Shark off Carpinteria Reef, Summer 2021."}
+
+:::
+
+## Coto Brus canton, Costa Rica
+
+::: {layout="[[1], [1, 1, 1]]"}
+![](images/loma-view.jpeg){group="CR"
+description="View of Loma Linda farm, Spring 2022."}
+
+![](images/measuring-seedlings.JPG){group="CR"
+description="Measuring seedlings, Spring 2022."}
+
+![](images/open-cage.JPG){group="CR"
+description="Freshly constructed seedling cage, Spring 2022."}
+
+![](images/plant-view.jpeg){group="CR"
+description="Seedlings in cage, Summer 2022."}
+
+:::
+
+## Tejon Ranch Conservancy, California
+
+::: {layout="[[1, 1, 1, 1]]"}
+![](images/michelle-grass.JPG){group="Tejon"
+description="Michelle during one of our breaks sampling vegetation, Spring 2017."}
+
+![](images/soil-sampling.JPG){group="Tejon"
+description="Holly, Michelle, and Devyn sampling soil for Bui et al. 2020, Spring 2018."}
+
+![](images/summer-oaks.JPG){group="Tejon"
+description="Deer amongst oak trees, Summer 2016."}
+
+![](images/tejon-team.JPG){group="Tejon"
+description="Bella, Devyn, Carina, and me, Summer 2016."}
+
+:::
+
+## Santa Barbara Island, California
+
+::: {layout="[[1], [1, 1]]"}
+![](images/sbi-cabin.jpeg){group="SBI"
+description="View out the researcher cabin."}
+
+![](images/sbi-cove.jpeg){group="SBI"
+description="Cove."}
+
+![](images/wegu-chick.JPG){group="SBI"
+description="Western Gull chick."}
+
+:::
+
+## Palmyra Atoll, USA
+
+::: {layout="[[1], [1, 1, 1]]"}
+![](images/lagoon-pano.jpg){group="Palmyra"
+description="Glassy lagoon."}
+
+![](images/coconut-crab.JPG){group="Palmyra"
+description="Coconut and hermit crabs eating a tagged coconut for Miller-ter Kuile 2020."}
+
+![](images/berlese-lights.JPG){group="Palmyra"
+description="Me with Berlese funnels I sewed."}
+
+![](images/manta-ray.JPG){group="Palmyra"
+description="Manta Ray at the dock."}
+
+:::
+
+## Code note
+
+This gallery is made with the [Lightbox extension](https://github.com/quarto-ext/lightbox). 

@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+$body-color:            #0B4221 !default;
+$font-stack:            'Spectral', serif;
+
+// Google font import
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600&family=Spectral:wght@200&display=swap');
+
+// Colors
+$light-cream: #fcfaf5;
+$cream: #E4DECE;
+$light-orange: #ECBD95;
+$grey: #9BB1BB;
+$light-blue: #79ACBD;
+$dark-blue: #346575;
+$dark-green: #0B4221;
+
+// Base document colors
+$navbar-bg: $dark-green;
+$navbar-fg: $grey; 
+$navbar-hl: $light-orange; 
+$body-bg: $light-cream;
+$body-color: $dark-green;
+$footer-bg: $light-blue; 
+$link-color: $dark-blue;
+
+// Inline code
+$code-bg: $cream;
+$code-color: $dark-blue; 
+
+// Code blocks
+$code-block-bg: $cream;
+
+// reverse order (for publications)
+// replace "item 6" with however many papers there are
+.rev-lists > ol {
+  list-style-type:none;
+  counter-reset:item 6;
+}
+.rev-lists > ol > li {
+  counter-increment:item -1;
+}
+.rev-lists > ol > li:after {
+  content: counter(item);
+}
+
+/* CLASS SELECTORS (self-defined) */
+
+.custom-subtitle {
+  font-size: 22px;
+  margin-bottom: 0.15em;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+    color: #79ACBD;
+}
+
+/* ELEMENT SELECTORS (self-defined) */
+
+body {
+  line-height: 1.5; // min 1.5 suggested for assistive tech
+  font-size: 19.5px;
+}

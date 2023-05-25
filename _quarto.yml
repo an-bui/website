@@ -3,18 +3,38 @@ project:
   output-dir: docs
 
 website:
-  title: "website"
+  title: "An Bui"
+  favicon: images/waves.png
   navbar:
+    title: An Bui
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Data Science
+        href: data-science.qmd
+      - text: Fieldwork
+        href: fieldwork.qmd
+      - text: CV
+        href: CV/Bui-An_CV.pdf
+      - text: Prints
+        href: https://an-bui.github.io/shop/
+      - icon: github
+        href: https://github.com/an-bui
+        
+reader-mode: true
 
 format:
   html:
-    theme: cosmo
+    theme: 
+    - lux
+    - custom.scss
+    mainfont: Raleway
     css: styles.css
     toc: true
 
-
+editor: visual
 

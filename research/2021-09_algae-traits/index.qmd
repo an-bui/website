@@ -1,0 +1,26 @@
+---
+title: "Marine macroalgae functional traits"
+description: Functional traits can reveal life history strategies for algal species in the Santa Barbara Coastal Long Term Ecological Research Site.
+freeze: auto
+---
+
+![Cryptopleura ruprechtiana collected from Isla Vista Reef on 2021-07-19.](research_traits.jpg){fig-alt="Scan of Cryptopleura ruprechtiana, a marine macroalgae, on a white background. There is a ruler on the left for scale, and the sample tag is in the bottom left corner."}
+Functional traits provide a potentially useful way to identify patterns in nature. Functional traits are morphological, physiological, or behavioral characteristics that define species’ roles in ecosystems and responses to environments. Methods of describing species via their traits range from coarse (e.g. functional form or group) to fine (e.g. measuring leaf area), with increasing insight into the functional role of a species with increasing resolution. By defining ecological communities by their functions rather than taxonomic composition, we can make comparisons across communities independently of species identity, making generalization and identification of patterns possible. In this project, I ask what the primary traits defining macroalgal species differences are, and how they can explain patterns through time in changing community composition.  
+
+To answer these questions, I work in unceded Barbareño Chumash land, or the Santa Barbara Coastal Long-term Ecological Research site (SBC LTER). I hypothesized that the most meaningful traits differentiating species would be related to photosynthesis and competition for space, given that light and substrate are major determinants of benthic macroalgal community structure. I measured a suite of traits related to light capture, physical structure, and herbivore palatability for the most common species in the SBC LTER.  
+
+![Some samples I have collected.](research_traits-samples.png){width="800" fig-alt="A row of four scanned macroalgal samples. There is a ruler to the right of each scan. There is a tag in the upper left corner of each scan to identify the sample."}
+
+Preliminary data suggest that traits related to vertical space use and light competition (e.g. total individual dry mass, maximum height, frond length, photosynthetic efficiency) define one principal component or axis along which species can be differentiated, while traits related to resource use (e.g. thallus dry matter content, thallus surface area to volume ratio) define another principal component.
+
+![PCA of algal traits. Each point is an individual.](research_trait-PCA.png){width="600" fig-alt="PCA of algal traits. Each point is an individual. Points are colored by species. Shapes represent sites."}
+
+
+
+
+
+
+
+
+
+

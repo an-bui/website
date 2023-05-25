@@ -1,0 +1,126 @@
+---
+title: "Teaching"
+filters:
+   - lightbox
+lightbox: auto
+---
+
+## Teaching goals
+
+Ecology is the basis of some of the most compelling stories about the world around us -- the patterns of diversity that determine the structure of alpine forests to coastal tidepools are best described in ecological terms using observational, experimental, and theoretical methods. As an instructor in the department of Ecology, Evolution, and Marine Biology, I have three main teaching goals to teach these fundamental methods in ecology: 1. foster an inclusive environment for discussion and critical thinking, 2. connect observations to theory and current applications, and 3. make connections between coursework and future careers.
+
+------------------------------------------------------------------------
+
+## Curricular courses
+
+### Ecology and Evolution of Terrestrial Vertebrates Lab - EEMB 113L
+
+::: {layout="[[1, 1, 1]]"}
+![](images/morro-bay.JPG){group="113L"
+description="Students looking at sea otters through binoculars in Morro Bay, Fall 2019."}
+
+![](images/sedgwick-coverboard.jpeg){group="113L"
+description="Coverboard at Sedgwick Reserve as part of reptile monitoring study, Fall 2019."}
+
+![](images/teaching_shorebirds.JPG){group="113L"
+description="Comparison of different types of probing bills using UCSB Cheadle Center for Biodiversity and Restoration teaching specimens. Species from left to right are Whimbrel, Long-billed Curlew, and Marbled Godwit."}
+:::
+
+
+Organismal ecology and evolution can be understood in the same terms used to describe distinguishing features - for example, bill shape, foot type, and dentition are common "clues" for identifying animals, but these all contribute to a species' "ecology": what role does it play in an ecosystem?
+
+By the end of the class, students will feel confident in their grasp of the following basics of vertebrate ecology:
+
+1.  To identify terrestrial vertebrates using "ecological clues": habitat, behavior, morphology\
+2.  To understand animal survey methods and how they fit into experimental design
+
+This class fulfills these goals with a combination of nature walks, monitoring of local field sites, assignments, and assessments for students to track their progress throughout the quarter.\
+
+Please see the Fall 2022 syllabus for this course [here](https://docs.google.com/document/d/1cCA5BxasTRcdeEKatId02q91XdXcQr0wBsXxHYKyu80/edit?usp=sharing).
+
+Media coverage: [UCSB Current](https://www.news.ucsb.edu/2018/018616/field-tripping)
+
+<iframe src="https://player.vimeo.com/video/249854405?h=20f3b36e05&amp;color=c6e7ff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+<p><a href="https://vimeo.com/249854405">Field Tripping</a> from <a href="https://vimeo.com/ucsantabarbara">UC Santa Barbara</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+*Institution: University of California, Santa Barbara*\
+*Level: Upper division undergraduate, 2 units*\
+*Role: Head Teaching Assistant*\
+*Quarters taught: Fall 2017, Winter 2018, Fall 2018, Fall 2019, Fall 2020, Fall 2021, Fall 2022*
+
+### Statistics for Environmental Studies - ENVS 193DS
+
+In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:  
+1. Describe basic concepts of probability and statistics  
+2. Identify appropriate statistical analyses to test hypotheses  
+3. Conduct statistical analyses and visualize data using the R programming language  
+4. Implement best practices for reproducible analysis and collaborative work  
+5. Interpret and contextualize statistical results in general concepts from environmental studies  
+
+Please see the Spring 2023 syllabus for this course [here](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing).  
+
+*Institution: University of California, Santa Barbara*\
+*Level: Upper division undergraduate, 4 units*\
+*Role: Instructor of record*\
+*Quarters taught: Spring 2023*
+
+### Ecological Modelling - EEMB 179/279
+
+In this course, students learn foundational theoretical models in ecology. I taught students how to implement models in code using R and RStudio. By the end of the course, students confidently 1) navigated RMarkdown structure, 2) knew how to write and execute models in R, and 3) presented their results from a final project in which they analyzed an existing theoretical model.\
+
+*Institution: University of California, Santa Barbara*\
+*Level: Upper division undergraduate and graduate, 4 units*\
+*Role: Teaching Assistant*\
+*Quarters taught: Winter 2019, Winter 2020*
+
+### Introduction to Ecology - EEMB 120
+
+This course provides a broad overview of ecological concepts from individuals to ecosystems. I taught students how to apply those concepts to current research and parse ecological literature. By the end of the course, students were confident in their skills of 1) reading scientific literature, 2) understanding study implications, and 3) placing research in the context of ecological theory.
+
+*Institution: University of California, Santa Barbara*\
+*Level: Upper division undergraduate, 4 units*\
+*Role: Teaching Assistant*\
+*Quarters taught: Spring 2018, Spring 2019, Spring 2020*
+
+Please see my [CV](CV/Bui-An_CV.pdf) for a complete list of courses taught.
+
+## Extracurricular courses
+
+### 2021
+
+R-Ladies Santa Barbara. "Putting the fun in FUNctions."\
+Data Analysis and Coding Club. "Intro to R." Series of 4 workshops.
+
+### 2020
+
+Southern California Coastal Water Resource Project. "Introduction to community analysis in `vegan`."\
+R-Ladies Santa Barbara. "Data Visualization Part 1." Co-taught with S Csik and J Verstaen.\
+UCSC SCRUBs R Group. "Introduction to community analysis in `vegan`."
+
+### 2019
+
+EcoDataScience. "Introduction to community analysis in `vegan`."\
+UCSB EEMB. "Community analysis in `vegan`."\
+UCSB Science & Engineering Research Academy. "Introduction to R."\
+R-Ladies Santa Barbara. "Intro to the Tidyverse." Co-taught with S Csik.\
+UCSB EEMB. "Intro to the Tidyverse." Co-taught with S Csik.
+
+## Student reviews
+
+Please see student evaluations from 2015-2019 [here](CV/Bui_An-ESCI_report.pdf).  
+
+Responses to: "What specific aspects of your TA's teaching were most useful for your learning?"\
+- "An is an R wizard. Always seemed to know what she was doing and how to help. Grateful she would post the notes after lab!" (EEMB 179, Winter 2021)\
+- "An is the best TA I have ever had. She is so vastly knowledgable, and shows obvious dedication to the course and her students. She is beyond helpful, and otherwise the only person on the planet who could keep me engaged for a three hour coding lab." (EEMB 179, Winter 2021)\
+- "An is probably my favorite TA at UCSB. She was so patient during the long labs and answered questions well. Skilled at troubleshooting problems. She replied to emails very quickly and was understanding with deadlines. I appreciate her so much and think that she will become a great professor in the future." (EEMB 179, Winter 2021)\
+- "She was well organized, gave us plenty of resources to help us succeed, and was super friendly and approachable. In addition, she explained class material well and asked useful questions that helped us learn the material ourselves." (EEMB 120, Spring 2021)\
+- "I like the way An presented her teaching as she was very clear, conscise, yet made the readings a lot easier to understand by putting it in simpler terms. She broke down each part of the readings really nicely and it helped me understand the papers a lot more." (EEMB 120, Spring 2021)\
+- "She was very friendly and clear during all of our sections. She made them enjoyable and was great at breaking awkward silences by asking followup questions or by clarifying the question she had asked." (EEMB 120, Spring 2021)\
+- "An was wonderful, even when our class was slow to answer questions (probably because it was 8am on a friday *\[sic\]*) she was always encouraging and patient. She explained concepts thoroughly and I like how calming her class was. She made a safe space to get answers wrong and open up discussions about some difficult to understand concepts." (EEMB 120, Spring 2021)
+
+Responses to: "What were the TA's strengths and/or weaknesses as a teacher?"\
+- "An made sure that everyone including me understood the different parts of code and why we were doing them even when she was going too fast. I appreciate that she was willing to work with people individually in order to make them understand the topic and why we were doing what we were doing." (EEMB 179, Winter 2020)\
+- "An was very good at explaining difficult concepts in R in a way that was easy to understand for beginners but gave us the tools and foundation to tackle increasingly complex problems." (EEMB 179, Winter 2020)
