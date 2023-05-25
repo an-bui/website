@@ -91,4 +91,4 @@ description="Manta Ray at the dock."}
 
 ## Code note
 
-This gallery is made with the [Lightbox extension](https://github.com/quarto-ext/lightbox). 
+This gallery is made with the [Lightbox extension](https://github.com/quarto-ext/lightbox). The code for this page is [here](https://github.com/an-bui/website/blob/main/fieldwork.qmd). I was also struggling with file paths, so all my images are in the "images" folder in the directory (no subfolders).

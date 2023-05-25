@@ -102,7 +102,7 @@
     "href": "fieldwork.html#code-note",
     "title": "Fieldwork",
     "section": "Code note",
-    "text": "Code note\nThis gallery is made with the Lightbox extension."
+    "text": "Code note\nThis gallery is made with the Lightbox extension. The code for this page is here. I was also struggling with file paths, so all my images are in the “images” folder in the directory (no subfolders)."
   },
   {
     "objectID": "data-science.html",
