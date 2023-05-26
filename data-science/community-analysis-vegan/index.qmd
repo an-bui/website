@@ -1,7 +1,7 @@
 ---
 title: "Community analysis with `{vegan}`"
 image: nmds.png
-description: a workshop for R-Ladies Santa Barbara
+description: a workshop on multivariate analysis
 categories: [workshops, vegan]
 editor: source
 bibliography: references.bib
@@ -14,7 +14,7 @@ bibliography: references.bib
 
 ## {{< fa file >}} Description
 
-The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used data from @adams2019.
+This is a workshop on how to use basic community analysis functions in `{vegan}` to calculate species richness, conduct Principal Components Analysis, and create a non-metric multidimensional scaling plot. The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used bird community survey data from @adams2019.
 
 ## {{< fa link >}} Links
 
