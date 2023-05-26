@@ -7,6 +7,13 @@ editor: source
 bibliography: references.bib
 ---
 
+<p align="center">
+  <iframe src="plotly.html" width="650" height="450" alt="An interactive boxplot with points representing total lobster count at a given site in a given year. There are two boxes, one representing marine protected areas and the other representing non-protected areas. There are more lobsters in the marine protected areas than non-marine protected areas!"></iframe>
+</p>
+<span style='font-size: 90%;'><em><center>An example of an interactive plot using `plotly::ggplotly()`!</em></center></span>
+
+
+
 ## {{< fa file >}} Description
 
 My data science bestie [Sam Csik](https://samanthacsik.github.io/) and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for `dt`, `plotly`, and `leaflet` to create tables, figures, and maps using a dataset on California spiny lobster (_Panulirus interruptus_) from the Santa Barbara Coastal LTER (@lter2022).  
