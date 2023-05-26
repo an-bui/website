@@ -8,7 +8,7 @@ editor: source
 
 ## Student reviews
 
-Please see student evaluations from 2015-2019 [here](CV/Bui_An-ESCI_report.pdf).  
+Please see student evaluations from 2015-2019 [here](Bui_An-ESCI_report.pdf).  
 
 Responses to: "What specific aspects of your TA's teaching were most useful for your learning?"\
 - "An is an R wizard. Always seemed to know what she was doing and how to help. Grateful she would post the notes after lab!" (EEMB 179, Winter 2021)\
