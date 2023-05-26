@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/waves.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -126,29 +159,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link active" data-scroll-target="#data-visualization">Data visualization</a></li>
-  <li><a href="#workshops" id="toc-workshops" class="nav-link" data-scroll-target="#workshops">Workshops</a>
-  <ul class="collapse">
-  <li><a href="#figures-in-ggplot" id="toc-figures-in-ggplot" class="nav-link" data-scroll-target="#figures-in-ggplot">Figures in <code>ggplot</code></a></li>
-  <li><a href="#community-analysis-using-vegan" id="toc-community-analysis-using-vegan" class="nav-link" data-scroll-target="#community-analysis-using-vegan">Community analysis using <code>vegan</code></a></li>
-  <li><a href="#putting-the-fun-in-functions" id="toc-putting-the-fun-in-functions" class="nav-link" data-scroll-target="#putting-the-fun-in-functions">Putting the FUN in functions</a></li>
-  </ul></li>
-  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a>
-  <ul class="collapse">
-  <li><a href="#calecopal-a-california-inspired-package-of-color-palettes" id="toc-calecopal-a-california-inspired-package-of-color-palettes" class="nav-link" data-scroll-target="#calecopal-a-california-inspired-package-of-color-palettes"><code>calecopal</code>: a California-inspired package of color palettes</a></li>
-  </ul></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
-  <ul class="collapse">
-  <li><a href="#fungal-community-data" id="toc-fungal-community-data" class="nav-link" data-scroll-target="#fungal-community-data">Fungal community data</a></li>
-  </ul></li>
-  <li><a href="#code-notes" id="toc-code-notes" class="nav-link" data-scroll-target="#code-notes">Code notes</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="color palettes">color palettes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="functions">functions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="learnr">learnr <span class="quarto-category-count">(1)</span></div><div class="category" data-category="packages">packages <span class="quarto-category-count">(1)</span></div><div class="category" data-category="publications">publications <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vegan">vegan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="websites">websites <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshops">workshops <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -169,56 +181,249 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="data-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="data-visualization">Data visualization</h2>
-<p>Data visualization is one of my favorite parts of my job, so I started writing about it and compiling resources I like in <a href="https://an-bui.github.io/figs/">a blog</a>.</p>
-</section>
-<section id="workshops" class="level2">
-<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
-<section id="figures-in-ggplot" class="level3">
-<h3 class="anchored" data-anchor-id="figures-in-ggplot">Figures in <code>ggplot</code></h3>
-<p>This is a workshop on figure customization using <code>ggplot</code> and associated packages given for UCSB EEMB R Seminar in Winter 2023.<br>
-- <a href="https://github.com/an-bui/figures-in-ggplot">Github repository</a><br>
-- <a href="https://an-bui.github.io/figures-in-ggplot/code/ggplot-code-workshop">knitted code</a><br>
-- <a href="https://an-bui.github.io/figs/posts/2023-02-13_EEMB-R-seminar_figures-in-ggplot/">Blog summary</a></p>
-</section>
-<section id="community-analysis-using-vegan" class="level3">
-<h3 class="anchored" data-anchor-id="community-analysis-using-vegan">Community analysis using <code>vegan</code></h3>
-<p>This is a workshop on basic tools for community analysis in <code>vegan</code> that was given for UCSB EEMB and UCSC SCRUBs.<br>
-- <a href="https://rpubs.com/an-bui/vegan-cheat-sheet">RPubs: vegan cheat sheet</a></p>
-</section>
-<section id="putting-the-fun-in-functions" class="level3">
-<h3 class="anchored" data-anchor-id="putting-the-fun-in-functions">Putting the FUN in functions</h3>
-<p>This is a workshop on writing functions in R, with editing from <a href="https://github.com/samanthacsik">Sam Csik</a> and <a href="https://www.julietteverstaen.com/">Juliette Verstaen</a>.<br>
-- <a href="https://rpubs.com/an-bui/fun-functions">RPubs</a><br>
-- <a href="https://github.com/an-bui/RLadiesSB-FUNctions">Github repository</a><br>
-- <a href="https://an-bui.shinyapps.io/FUNctions-learnR/">learnr tutorial</a></p>
-</section>
-</section>
-<section id="packages" class="level2">
-<h2 class="anchored" data-anchor-id="packages">Packages</h2>
-<section id="calecopal-a-california-inspired-package-of-color-palettes" class="level3">
-<h3 class="anchored" data-anchor-id="calecopal-a-california-inspired-package-of-color-palettes"><code>calecopal</code>: a California-inspired package of color palettes</h3>
-<p>This is a collection of 45 color palettes, all inspired by California ecosystems. This was built with <a href="https://www.heililowman.com/">Heili Lowman</a> and <a href="https://www.anasofiaguerra.com/">Ana Sofia Guerra</a>, and code was taken directly from Karthik Ram’s <code>wesanderson</code> package.<br>
-- <a href="https://github.com/an-bui/calecopal">Github repository</a></p>
-</section>
-</section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<section id="fungal-community-data" class="level3">
-<h3 class="anchored" data-anchor-id="fungal-community-data">Fungal community data</h3>
-<p>Data and analysis to accompany Bui et al., “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193.<br>
-- <a href="https://zenodo.org/badge/latestdoi/221615362">Github repository</a></p>
-</section>
-</section>
-<section id="code-notes" class="level2">
-<h2 class="anchored" data-anchor-id="code-notes">Code notes</h2>
-<p>I created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I’ve left a few “code notes” at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on <a href="https://samanthacsik.github.io/">Sam Csik</a>’s Quarto resources, including <a href="https://ucsb-meds.github.io/creating-quarto-websites/">“Creating your personal website using Quarto”</a>, <a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">“Customizing Quarto Websites”</a>, and <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/">“Adding a blog to your existing Quarto website”</a>. The Github repo for this site is <a href="https://github.com/an-bui/website">here</a>. Happy Quarto-ing!</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="packages,color palettes" data-listing-file-modified-sort="1685084419748" data-listing-reading-time-sort="2">
+<a href="./data-science/calecopal/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./data-science/calecopal/hex-banner.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<code>{calecopal}</code>
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('packages'); return false;">
+packages
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('color palettes'); return false;">
+color palettes
+</div>
+</div>
+<div class="card-text listing-description">
+a California-inspired Package of Color Palettes
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="workshops,functions,learnr" data-listing-file-modified-sort="1685084532626" data-listing-reading-time-sort="1">
+<a href="./data-science/functions/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Putting the FUN in functions
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+workshops
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('functions'); return false;">
+functions
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('learnr'); return false;">
+learnr
+</div>
+</div>
+<div class="card-text listing-description">
+a workshop for R-Ladies Santa Barbara
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="workshops,data visualization" data-listing-file-modified-sort="1685084756217" data-listing-reading-time-sort="1">
+<a href="./data-science/interactive-visualizations/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./data-science/interactive-visualizations/plotly-banner.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Integrating JavaScript libraries into R for Dynamic Visualizations
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+workshops
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+</div>
+<div class="card-text listing-description">
+workshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="workshops,data visualization" data-listing-file-modified-sort="1685084689585" data-listing-reading-time-sort="1">
+<a href="./data-science/figures-in-ggplot/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./data-science/figures-in-ggplot/crab_plot_and_hist_2023-02-28.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Figures in <code>{ggplot2}</code>
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+workshops
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+</div>
+<div class="card-text listing-description">
+workshop for UCSB EEMB R Seminar, Winter 2023
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="workshops,vegan" data-listing-file-modified-sort="1685084547546" data-listing-reading-time-sort="1">
+<a href="./data-science/community-analysis-vegan/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./data-science/community-analysis-vegan/nmds.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Community analysis with <code>{vegan}</code>
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+workshops
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="card-text listing-description">
+a workshop for R-Ladies Santa Barbara
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="quarto,websites" data-listing-file-modified-sort="1685084354890" data-listing-reading-time-sort="1">
+<a href="./data-science/code-notes/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3562a6a2-93d6-4507-93f4-1294cd4cd02b.png?h=2be2d5da4cd78cc55d3ea2609195007f" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Code notes
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('websites'); return false;">
+websites
+</div>
+</div>
+<div class="card-text listing-description">
+for anyone who’s interested
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="publications,data" data-listing-file-modified-sort="1685084555194" data-listing-reading-time-sort="1">
+<a href="./data-science/fungal-community-data/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/research_fungi-oaks.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bui et al.&nbsp;2020 data and analysis
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('publications'); return false;">
+publications
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
+data
+</div>
+</div>
+<div class="card-text listing-description">
+Data and analysis to accompany Bui et al.&nbsp;2020
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

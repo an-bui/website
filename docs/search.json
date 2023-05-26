@@ -109,42 +109,119 @@
     "href": "data-science.html",
     "title": "Data Science",
     "section": "",
-    "text": "Data visualization is one of my favorite parts of my job, so I started writing about it and compiling resources I like in a blog."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nfor anyone who’s interested\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "data-science.html#data-visualization",
-    "href": "data-science.html#data-visualization",
-    "title": "Data Science",
+    "objectID": "data-science/code-notes/index.html#fa-file-description",
+    "href": "data-science/code-notes/index.html#fa-file-description",
+    "title": "Code notes",
+    "section": " Description",
+    "text": "Description\nI created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I’ve left a few “code notes” at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on Sam Csik’s Quarto resources, including “Creating your personal website using Quarto”, “Customizing Quarto Websites”, and “Adding a blog to your existing Quarto website”. The Github repo for this site is here. Happy Quarto-ing!"
+  },
+  {
+    "objectID": "data-science/figures-in-ggplot/index.html",
+    "href": "data-science/figures-in-ggplot/index.html",
+    "title": "Figures in {ggplot2}",
     "section": "",
-    "text": "Data visualization is one of my favorite parts of my job, so I started writing about it and compiling resources I like in a blog."
+    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
   },
   {
-    "objectID": "data-science.html#workshops",
-    "href": "data-science.html#workshops",
-    "title": "Data Science",
-    "section": "Workshops",
-    "text": "Workshops\n\nFigures in ggplot\nThis is a workshop on figure customization using ggplot and associated packages given for UCSB EEMB R Seminar in Winter 2023.\n- Github repository\n- knitted code\n- Blog summary\n\n\nCommunity analysis using vegan\nThis is a workshop on basic tools for community analysis in vegan that was given for UCSB EEMB and UCSC SCRUBs.\n- RPubs: vegan cheat sheet\n\n\nPutting the FUN in functions\nThis is a workshop on writing functions in R, with editing from Sam Csik and Juliette Verstaen.\n- RPubs\n- Github repository\n- learnr tutorial"
+    "objectID": "data-science/figures-in-ggplot/index.html#fa-file-description",
+    "href": "data-science/figures-in-ggplot/index.html#fa-file-description",
+    "title": "Figures in {ggplot2}",
+    "section": "",
+    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
   },
   {
-    "objectID": "data-science.html#packages",
-    "href": "data-science.html#packages",
-    "title": "Data Science",
-    "section": "Packages",
-    "text": "Packages\n\ncalecopal: a California-inspired package of color palettes\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman and Ana Sofia Guerra, and code was taken directly from Karthik Ram’s wesanderson package.\n- Github repository"
+    "objectID": "data-science/figures-in-ggplot/index.html#fa-link-links",
+    "href": "data-science/figures-in-ggplot/index.html#fa-link-links",
+    "title": "Figures in {ggplot2}",
+    "section": " Links",
+    "text": "Links\n Workshop repo\n Blog summary, where you can find more of my musings about figure making"
   },
   {
-    "objectID": "data-science.html#publications",
-    "href": "data-science.html#publications",
-    "title": "Data Science",
-    "section": "Publications",
-    "text": "Publications\n\nFungal community data\nData and analysis to accompany Bui et al., “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193.\n- Github repository"
+    "objectID": "data-science/interactive-visualizations/index.html",
+    "href": "data-science/interactive-visualizations/index.html",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "section": "",
+    "text": "My data science bestie Sam Csik and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for dt, plotly, and leaflet to create tables, figures, and maps using a dataset on California spiny lobster (Panulirus interruptus) from the Santa Barbara Coastal LTER (LTER, Reed, and Miller (2022)).\nWe put together a very much non-scientific report with these visualizations to show how useful they could be when reporting data, demonstrating the power of these interactive visualizations when sharing data!"
   },
   {
-    "objectID": "data-science.html#code-notes",
-    "href": "data-science.html#code-notes",
-    "title": "Data Science",
-    "section": "Code notes",
-    "text": "Code notes\nI created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I’ve left a few “code notes” at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on Sam Csik’s Quarto resources, including “Creating your personal website using Quarto”, “Customizing Quarto Websites”, and “Adding a blog to your existing Quarto website”. The Github repo for this site is here. Happy Quarto-ing!"
+    "objectID": "data-science/interactive-visualizations/index.html#fa-file-description",
+    "href": "data-science/interactive-visualizations/index.html#fa-file-description",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "section": "",
+    "text": "My data science bestie Sam Csik and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for dt, plotly, and leaflet to create tables, figures, and maps using a dataset on California spiny lobster (Panulirus interruptus) from the Santa Barbara Coastal LTER (LTER, Reed, and Miller (2022)).\nWe put together a very much non-scientific report with these visualizations to show how useful they could be when reporting data, demonstrating the power of these interactive visualizations when sharing data!"
+  },
+  {
+    "objectID": "data-science/interactive-visualizations/index.html#fa-link-links",
+    "href": "data-science/interactive-visualizations/index.html#fa-link-links",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "section": " Links",
+    "text": "Links\n Workshop repo\n Workshop slides\n A very non-scientific report using the visualizations from the workshop"
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html#fa-file-description",
+    "href": "data-science/community-analysis-vegan/index.html#fa-file-description",
+    "title": "Community analysis with {vegan}",
+    "section": " Description",
+    "text": "Description\nThe first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used data from Adams and Matthews (2019)."
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html#fa-link-links",
+    "href": "data-science/community-analysis-vegan/index.html#fa-link-links",
+    "title": "Community analysis with {vegan}",
+    "section": " Links",
+    "text": "Links\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup"
+  },
+  {
+    "objectID": "data-science/calecopal/index.html#fa-brands-github-install-the-package",
+    "href": "data-science/calecopal/index.html#fa-brands-github-install-the-package",
+    "title": "{calecopal}",
+    "section": " Install the package!",
+    "text": "Install the package!"
+  },
+  {
+    "objectID": "data-science/calecopal/index.html#fa-palette-description",
+    "href": "data-science/calecopal/index.html#fa-palette-description",
+    "title": "{calecopal}",
+    "section": " Description",
+    "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\nAn example of the calochortus palette in calecopal, which has 5 pink-brown colors, above the flower that inspired the palette, Calochortus catalinae, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals.\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nAn example of the bigsur palette in calecopal on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."
+  },
+  {
+    "objectID": "data-science/functions/index.html#fa-file-description",
+    "href": "data-science/functions/index.html#fa-file-description",
+    "title": "Putting the FUN in functions",
+    "section": " Description",
+    "text": "Description\nThis is a workshop on writing functions in R, with editing from Sam Csik and Juliette Verstaen. I also made a few illustrations for the event!"
+  },
+  {
+    "objectID": "data-science/functions/index.html#fa-pencil-illustrations",
+    "href": "data-science/functions/index.html#fa-pencil-illustrations",
+    "title": "Putting the FUN in functions",
+    "section": " Illustrations",
+    "text": "Illustrations\n\n\n\nBasic function structure as explained by Saturn.\n\n\n\n\n\nJupiter explains what goes into a function."
+  },
+  {
+    "objectID": "data-science/functions/index.html#fa-link-links",
+    "href": "data-science/functions/index.html#fa-link-links",
+    "title": "Putting the FUN in functions",
+    "section": " Links",
+    "text": "Links\n Github repository\n learnr tutorial\n RPubs"
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html#fa-database-fungal-community-data",
+    "href": "data-science/fungal-community-data/index.html#fa-database-fungal-community-data",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": " Fungal community data",
+    "text": "Fungal community data\nData and analysis to accompany Bui et al., “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193."
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html#fa-link-links",
+    "href": "data-science/fungal-community-data/index.html#fa-link-links",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": " Links",
+    "text": "Links\n Zenodo entry\n GitHub repository"
   },
   {
     "objectID": "index.html",

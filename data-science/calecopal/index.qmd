@@ -1,0 +1,35 @@
+---
+title: "`{calecopal}`"
+image: hex-banner.png
+description: a California-inspired Package of Color Palettes
+categories: [packages, color palettes]
+editor: source
+---
+
+<p align="center">
+  <img src="hex-sticker.png" alt="Hexagonal sticker with calecopal in black text at the top. The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn." height="40%" width="40%">
+</p>
+
+## {{< fa brands github >}} [Install the package!](https://github.com/an-bui/calecopal)
+
+## {{< fa palette >}} Description
+
+This is a collection of 45 color palettes, all inspired by California ecosystems. This was built with [Heili Lowman](https://www.heililowman.com/), [Ana Sofia Guerra](https://www.anasofiaguerra.com/), and [Ana Miller-ter Kuile](https://anamtk.weebly.com/). The code was taken directly from Karthik Ram's `wesanderson` package.
+
+Some of my favorites include `calochortus` (after my favorite wildflower):
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" height="70%" width="70%">
+  <figcaption>An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals. </figcaption>
+</p>
+
+And `bigsur` (which is on the hex sticker!)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" height="70%" width="70%">
+  <figcaption>An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette.</figcaption>
+</p>
+
+# {{< fa book >}} Pronunciation
+
+"calecopal" stands for **Cal**ifornia **eco**system **pal**ettes. I usually say it "cal-ee-ko-pal".

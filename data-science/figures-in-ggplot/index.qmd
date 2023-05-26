@@ -1,0 +1,22 @@
+---
+title: "Figures in `{ggplot2}`"
+image: crab_plot_and_hist_2023-02-28.jpg
+description: workshop for UCSB EEMB R Seminar, Winter 2023
+categories: [workshops, data visualization]
+editor: source
+---
+
+## {{< fa file >}} Description
+
+I gave a workshop on figure customization using `ggplot` and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from `lterdatasampler`. I _strongly_ believe in the power of making bad things before you make good things, so we made this _supremely ugly_ plot to go over some fundamental `ggplot` theme options, inserting images into plots using `magick`, and arranging them using `patchwork`.  
+
+<p align="center">
+  <img src="crab_plot_and_hist_2023-02-28.jpg" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram." width="90%" height="90%">
+  <figcaption>The ugliest plot!</figcaption>
+</p>
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [Workshop repo](https://github.com/an-bui/figures-in-ggplot)  
+{{< fa file-code>}} [Rendered code](https://an-bui.github.io/figures-in-ggplot/code/ggplot-code-workshop)  
+{{< fa rss >}} [Blog summary]((https://an-bui.github.io/figs/posts/2023-02-13_EEMB-R-seminar_figures-in-ggplot)), where you can find more of my musings about figure making

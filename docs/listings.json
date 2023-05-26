@@ -5,5 +5,17 @@
       "/research/2020-09_soil-fungi/index.html",
       "/research/2021-09_algae-traits/index.html"
     ]
+  },
+  {
+    "listing": "/data-science.html",
+    "items": [
+      "/data-science/calecopal/index.html",
+      "/data-science/functions/index.html",
+      "/data-science/interactive-visualizations/index.html",
+      "/data-science/figures-in-ggplot/index.html",
+      "/data-science/community-analysis-vegan/index.html",
+      "/data-science/code-notes/index.html",
+      "/data-science/fungal-community-data/index.html"
+    ]
   }
 ]

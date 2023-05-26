@@ -1,0 +1,23 @@
+---
+title: "Community analysis with `{vegan}`"
+image: nmds.png
+description: a workshop for R-Ladies Santa Barbara
+categories: [workshops, vegan]
+editor: source
+bibliography: references.bib
+---
+
+<p align="center">
+  <img src="nmds.png" alt="Plot showing community dissimilarity of birds between three land types: dry (pink), mixed (yellow), and riparian (green)." height="60%" width="60%">
+  <figcaption>Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types.</figcaption>
+</p>
+
+## {{< fa file >}} Description
+
+The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used data from @adams2019.
+
+## {{< fa link >}} Links
+
+{{< fa book >}} [RPubs: vegan cheat sheet](https://rpubs.com/an-bui/vegan-cheat-sheet)  
+
+{{< fa hill-rockslide >}} [Slides from southern CA All Hands useR and R-Ladies Meetup](https://docs.google.com/presentation/d/1tj7PElecpBRl9BMHEihdU32m23CQ4SaA/edit?usp=sharing&ouid=106933509253674445043&rtpof=true&sd=true)

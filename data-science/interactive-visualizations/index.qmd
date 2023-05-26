@@ -1,0 +1,22 @@
+---
+title: "Integrating JavaScript libraries into R for Dynamic Visualizations"
+image: plotly-banner.png
+description: workshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)
+categories: [workshops, data visualization]
+editor: source
+bibliography: references.bib
+---
+
+## {{< fa file >}} Description
+
+My data science bestie [Sam Csik](https://samanthacsik.github.io/) and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for `dt`, `plotly`, and `leaflet` to create tables, figures, and maps using a dataset on California spiny lobster (_Panulirus interruptus_) from the Santa Barbara Coastal LTER (@lter2022).  
+
+We put together a very much non-scientific report with these visualizations to show how useful they could be when reporting data, demonstrating the power of these interactive visualizations when sharing data! 
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [Workshop repo](https://github.com/samanthacsik/SORTEE-May2023)  
+
+{{< fa hill-rockslide >}} [Workshop slides](https://docs.google.com/presentation/d/1F5wKhd_8nX2x3dMvxZM5sE-pPPDgrQAKkFC4KGlE8jw/edit?usp=sharing)  
+
+{{< fa file-code >}} [A very non-scientific report](https://samanthacsik.github.io/SORTEE-May2023/example-reports/report-qmd.html) using the visualizations from the workshop 

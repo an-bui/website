@@ -1,0 +1,37 @@
+---
+title: "Putting the FUN in functions"
+image: https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg
+description: a workshop for R-Ladies Santa Barbara
+categories: [workshops, functions, learnr]
+editor: source
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg" alt="Banner image for event titled 'Putting the FUN in functions' against a dark blue background with yellow stars and smiling planets." height="70%" width="70%">
+  <figcaption>Banner image for the workshop, which I drew!</figcaption>
+</p>
+
+## {{< fa file >}} Description
+
+This is a workshop on writing functions in R, with editing from [Sam Csik](https://github.com/samanthacsik) and [Juliette Verstaen](https://www.julietteverstaen.com/). I also made a few illustrations for the event!
+
+## {{< fa pencil >}} Illustrations
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-structure.jpg" alt="A smiling planet Saturn explains function structure against a dark blue background." height="70%" width="70%">
+  <figcaption>Basic function structure as explained by Saturn.</figcaption>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-components.jpg" alt="Jupiter explains what goes into a function: the function, the arguments, and the output." height="70%" width="70%">
+  <figcaption>Jupiter explains what goes into a function.</figcaption>
+</p>
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [Github repository](https://github.com/an-bui/RLadiesSB-FUNctions)  
+
+{{< fa chalkboard-user >}} [learnr tutorial](https://an-bui.shinyapps.io/FUNctions-learnR/)  
+
+{{< fa book >}} [RPubs](https://rpubs.com/an-bui/fun-functions)
+

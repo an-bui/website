@@ -1,0 +1,16 @@
+---
+title: "Code notes"
+image: https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3562a6a2-93d6-4507-93f4-1294cd4cd02b.png?h=2be2d5da4cd78cc55d3ea2609195007f
+description: for anyone who's interested
+categories: [quarto, websites]
+editor: source
+---
+
+<p align="center">
+  <img src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3562a6a2-93d6-4507-93f4-1294cd4cd02b.png?h=2be2d5da4cd78cc55d3ea2609195007f" alt="Two happy penguins taking a selfie together in a snowy landscape." height="80%" width="80%">
+  <figcaption>Artwork by [Allison Horst.](https://allisonhorst.com/) Two penguins take a selfie with the Quarto moon!</figcaption>
+</p>
+
+## {{< fa file >}} Description
+
+I created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I've left a few "code notes" at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on [Sam Csik](https://samanthacsik.github.io/)'s Quarto resources, including ["Creating your personal website using Quarto"](https://ucsb-meds.github.io/creating-quarto-websites/), ["Customizing Quarto Websites"](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), and ["Adding a blog to your existing Quarto website"](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/). The Github repo for this site is [here](https://github.com/an-bui/website). Happy Quarto-ing!
