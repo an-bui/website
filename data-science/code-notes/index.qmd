@@ -1,7 +1,7 @@
 ---
 title: "Code notes"
 image: https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3562a6a2-93d6-4507-93f4-1294cd4cd02b.png?h=2be2d5da4cd78cc55d3ea2609195007f
-description: for anyone who's interested
+description: how I made this website!
 categories: [quarto, websites]
 editor: source
 ---
