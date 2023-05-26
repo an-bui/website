@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 $h2-font-size:          1.6rem !default;
 $headings-font-weight:  500 !default;
-$body-color:            #0B4221 !default;
+$body-color:            #03210f !default;
 $font-stack:            'Spectral', serif;
 
 // Google font import
@@ -12,6 +12,7 @@ $light-cream: #fcfaf5;
 $cream: #E4DECE;
 $light-orange: #ECBD95;
 $dark-orange: #BE5A47;
+$bright-orange: #f59090;
 $grey: #9BB1BB;
 
 // blues
@@ -23,9 +24,12 @@ $dark-blue2: #375377;
 $turquoise: #4CA2B0;
 
 // greens
-$dark-green: #0B4221;
+$dark-green: #03210f;
 $light-grey: #f7faf8;
 //$light-grey: #CECFD4;
+
+// purples
+$purple: #654783;
 
 // Base document colors
 /*$navbar-bg: $dark-green;
@@ -37,7 +41,7 @@ $footer-bg: $light-blue;
 $link-color: $dark-blue;*/
 $navbar-bg: $dark-blue;
 $navbar-fg: $grey; 
-$navbar-hl: $light-orange; 
+$navbar-hl: $bright-orange; 
 $body-bg: $light-grey;
 $body-color: $dark-green;
 $footer-bg: $light-blue; 
@@ -45,7 +49,7 @@ $link-color: $dark-blue;
 
 // Inline code
 $code-bg: $light-cream;
-$code-color: $dark-orange; 
+$code-color: $purple; 
 
 // Code blocks
 $code-block-bg: $cream;
@@ -66,13 +70,8 @@ $code-block-bg: $cream;
 /* CLASS SELECTORS (self-defined) */
 
 #title-block-header.quarto-title-block.default .quarto-title .title {
-    color: #79ACBD;
+    color: #9BB1BB;
 }
-
-/*.custom-figcaption {
-  color: $turquoise;
-  font-size: 15px;
-}*/
 
 /* ELEMENT SELECTORS (self-defined) */
 
@@ -81,11 +80,20 @@ body {
   font-size: 19.5px;
 }
 
-h2.anchored {
-  color: $dark-blue2;
+h1, h1.anchored {
+  color: $dark-orange;
+}
+
+h2, h2.anchored {
+  color: $dark-orange;
 }
 
 .custom-figcaption, figcaption.figure-caption {
+  color: $turquoise;
+  font-size: 15px;
+}
+
+.custom-figcaption {
   color: $turquoise;
   font-size: 15px;
 }

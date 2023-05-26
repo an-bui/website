@@ -4,6 +4,7 @@ filters:
    - lightbox
 lightbox: auto
 freeze: auto
+editor: source
 ---
 
 ## Teaching goals
@@ -17,16 +18,12 @@ Ecology is the basis of some of the most compelling stories about the world arou
 ### Ecology and Evolution of Terrestrial Vertebrates Lab - EEMB 113L
 
 ::: {layout="[[1, 1, 1]]"}
-![](images/morro-bay.JPG){group="113L"
-description="Students looking at sea otters through binoculars in Morro Bay, Fall 2019."}
+![](images/morro-bay.JPG){group="113L" description="Students looking at sea otters through binoculars in Morro Bay, Fall 2019."}
 
-![](images/sedgwick-coverboard.jpeg){group="113L"
-description="Coverboard at Sedgwick Reserve as part of reptile monitoring study, Fall 2019."}
+![](images/sedgwick-coverboard.jpeg){group="113L" description="Coverboard at Sedgwick Reserve as part of reptile monitoring study, Fall 2019."}
 
-![](images/teaching_shorebirds.JPG){group="113L"
-description="Comparison of different types of probing bills using UCSB Cheadle Center for Biodiversity and Restoration teaching specimens. Species from left to right are Whimbrel, Long-billed Curlew, and Marbled Godwit."}
+![](images/teaching_shorebirds.JPG){group="113L" description="Comparison of different types of probing bills using UCSB Cheadle Center for Biodiversity and Restoration teaching specimens. Species from left to right are Whimbrel, Long-billed Curlew, and Marbled Godwit."}
 :::
-
 
 Organismal ecology and evolution can be understood in the same terms used to describe distinguishing features - for example, bill shape, foot type, and dentition are common "clues" for identifying animals, but these all contribute to a species' "ecology": what role does it play in an ecosystem?
 
@@ -41,11 +38,12 @@ Please see the Fall 2022 syllabus for this course [here](https://docs.google.com
 
 Media coverage: [UCSB Current](https://www.news.ucsb.edu/2018/018616/field-tripping)
 
-<iframe src="https://player.vimeo.com/video/249854405?h=20f3b36e05&amp;color=c6e7ff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-
-</iframe>
-
-<p><a href="https://vimeo.com/249854405">Field Tripping</a> from <a href="https://vimeo.com/ucsantabarbara">UC Santa Barbara</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p align="center">
+  <iframe src="https://player.vimeo.com/video/249854405?h=20f3b36e05&amp;color=c6e7ff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p class="custom-figcaption">
+[Field Tripping](https://vimeo.com/249854405) from [UC Santa Barbara](https://vimeo.com/ucsantabarbara) on [Vimeo](https://vimeo.com).
+</p>
 
 *Institution: University of California, Santa Barbara*\
 *Level: Upper division undergraduate, 2 units*\
@@ -54,14 +52,14 @@ Media coverage: [UCSB Current](https://www.news.ucsb.edu/2018/018616/field-tripp
 
 ### Statistics for Environmental Studies - ENVS 193DS
 
-In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:  
-1. Describe basic concepts of probability and statistics  
-2. Identify appropriate statistical analyses to test hypotheses  
-3. Conduct statistical analyses and visualize data using the R programming language  
-4. Implement best practices for reproducible analysis and collaborative work  
-5. Interpret and contextualize statistical results in general concepts from environmental studies  
+In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:\
+1. Describe basic concepts of probability and statistics\
+2. Identify appropriate statistical analyses to test hypotheses\
+3. Conduct statistical analyses and visualize data using the R programming language\
+4. Implement best practices for reproducible analysis and collaborative work\
+5. Interpret and contextualize statistical results in general concepts from environmental studies
 
-Please see the Spring 2023 syllabus for this course [here](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing).  
+Please see the Spring 2023 syllabus for this course [here](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing).
 
 *Institution: University of California, Santa Barbara*\
 *Level: Upper division undergraduate, 4 units*\

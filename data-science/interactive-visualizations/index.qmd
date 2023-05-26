@@ -11,7 +11,8 @@ bibliography: references.bib
   <iframe src="plotly.html" width="650" height="450" alt="An interactive boxplot with points representing total lobster count at a given site in a given year. There are two boxes, one representing marine protected areas and the other representing non-protected areas. There are more lobsters in the marine protected areas than non-marine protected areas!"></iframe>
 </p>
 <p class="custom-figcaption">
-<span style='font-size: 90%;'>An example of an interactive plot using `plotly::ggplotly()`!</p>
+An example of an interactive plot using `plotly::ggplotly()`!
+</p>
 
 ## {{< fa file >}} Description
 

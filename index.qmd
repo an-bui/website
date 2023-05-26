@@ -10,6 +10,9 @@ about:
     - icon: github 
       text: GitHub
       href: https://github.com/an-bui
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=IqNX7swAAAAJ&hl=en
     - icon: envelope 
       text: Email
       href: mailto:an_bui@ucsb.edu

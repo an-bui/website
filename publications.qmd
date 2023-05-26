@@ -1,10 +1,11 @@
 ---
 title: "Publications"
+editor: source
 ---
 
 **Please see my** [CV](CV/Bui-An_CV.pdf) **for a complete list of publications and talks.**
 
-## Publications
+## Accepted
 
 <ol reversed>
 
