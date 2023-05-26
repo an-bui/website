@@ -1,0 +1,18 @@
+---
+title: "Introduction to Ecology"
+description: "EEMB 120 <br> Teaching Assistant"
+image: section-slide.png
+editor: source
+bibliography: references.bib
+---
+
+![An example of a slide from section discussing @eliason2011](section-slide.png){title="Slide with a map of sockeye salmon populations on the right, and bullet point information about the map on the left. Blue text indicates discussion questions for students to talk about in class." fig-alt="Slide with a map of sockeye salmon populations on the right, and bullet point information about the map on the left. Blue text indicates discussion questions for students to talk about in class."}
+
+## {{< fa file >}} Description
+
+**Institution:** University of California, Santa Barbara\
+**Level:** Upper division undergraduate, 4 units\
+**Role:** Teaching Assistant\
+**Quarters taught:** Spring 2018, Spring 2019, Spring 2020
+
+This course provides a broad overview of ecological concepts from individuals to ecosystems. I taught students how to apply those concepts to current research and parse ecological literature. By the end of the course, students were confident in their skills of 1) reading scientific literature, 2) understanding study implications, and 3) placing research in the context of ecological theory.

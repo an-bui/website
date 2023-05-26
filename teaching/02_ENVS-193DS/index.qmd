@@ -1,0 +1,29 @@
+---
+title: "Statistics for Environmental Studies"
+description: "ENVS 193DS <br> Instructor of Record"
+image: diagnostics.png
+editor: source
+---
+
+![Visual representation of how comparison of means between groups works. There are three pairs of samples, one orange and one green, each with different distances between means.](lecture-figure.png){fig-alt="Visual representation of how comparison of means between groups works. There are three pairs of samples, one orange and one green, each with different distances between means."}
+
+## {{< fa file >}} Description
+
+**Institution:** University of California, Santa Barbara\
+**Level:** Upper division undergraduate, 4 units\
+**Role**: Instructor of record\
+**Quarters taught:** Spring 2023
+
+In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:\
+
+1.  Describe basic concepts of probability and statistics\
+2.  Identify appropriate statistical analyses to test hypotheses\
+3.  Conduct statistical analyses and visualize data using the R programming language\
+4.  Implement best practices for reproducible analysis and collaborative work\
+5.  Interpret and contextualize statistical results in general concepts from environmental studies
+
+## {{< fa link >}} Links
+
+{{< fa paper-plane >}} Syllabus: [Spring 2023](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing)
+
+{{< fa sitemap >}} Course website: [Spring 2023](https://an-bui.github.io/ES-193DS-W23/)

@@ -16,6 +16,8 @@ about:
     - icon: envelope 
       text: Email
       href: mailto:an_bui@ucsb.edu
+editor: source
+toc: false
 ---
 
 ## About me

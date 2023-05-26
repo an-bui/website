@@ -20,13 +20,13 @@ editor: source
 <li>Miller-ter Kuile, A, A Apigo, **A Bui**, B DiFiore, ES Forbes, M Lee, D Orr, DL Preston, R Behm, T Bogar, J Childress, R Dirzo, M Klope, KD Lafferty, J McLaughlin, M Morse, C Motta, K Park, K Plummer, D Weber, R Young, H Young. "Predator-prey interactions of terrestrial invertebrates are determined by predator body size and species identity." *Ecology.* 2022. [PDF](paper-pdfs/miller-ter-kuile-2022.pdf).</li>
 
 <li>**Bui, A**, D Orr, M Lepori-Bui, K Konicek, HS Young, HV Moeller. "Soil fungal community composition and functional similarity shift across distinct climatic conditions." *FEMS Microbiology Ecology.* 2020. [PDF](paper-pdfs/bui-2020.pdf).\
-Media coverage: [UCSB Current](https://www.news.ucsb.edu/2020/020119/ancient-alliance), [The Bottom Line](https://thebottomline.as.ucsb.edu/2021/01/can-fungi-save-the-planet)</li>
+{{< fa newspaper >}} Media coverage: [UCSB Current](https://www.news.ucsb.edu/2020/020119/ancient-alliance), [The Bottom Line](https://thebottomline.as.ucsb.edu/2021/01/can-fungi-save-the-planet)</li>
 
 <li>Miller-ter Kuile, A, D Orr, **A Bui**, R Dirzo, M Klope, DJ McCauley, C Motta, HS Young. "Impacts of rodent eradication on seed predation and plant community biomass." *Biotropica*. 2020. [PDF](paper-pdfs/miller-ter-kuile-2020.pdf).\
-Media coverage: [UCSB Current](https://www.news.ucsb.edu/2020/020085/plot-twist), [The Economist](https://www.economist.com/science-and-technology/2020/10/31/kill-one-unwanted-species-and-another-arises), [Atlas Obscura](https://www.atlasobscura.com/articles/rats-coconuts-palmyra-atoll)</li>
+{{< fa newspaper >}} Media coverage: [UCSB Current](https://www.news.ucsb.edu/2020/020085/plot-twist), [The Economist](https://www.economist.com/science-and-technology/2020/10/31/kill-one-unwanted-species-and-another-arises), [Atlas Obscura](https://www.atlasobscura.com/articles/rats-coconuts-palmyra-atoll)</li>
 
 <li>Lafferty, KD, JP McLaughlin, DS Gruner, TA Bogar, **A Bui**, JN Childress, M Espinosa, ES Forbes, CA Johnston, M Klope, A Miller-ter Kuile, M Lee, KA Plummer, DA Weber, RT Young, HS Young. "Secondary extinction of Asian tiger mosquitoes (Aedes albopictus) following rat eradication on Palmyra Atoll." *Biology Letters.* 2018. [PDF](paper-pdfs/lafferty-2018.pdf).\
-Media coverage: [The Scientist](https://www.the-scientist.com/news-opinion/paradise-regained-how-the-palmyra-atoll-got-rid-of-invasive-mosquitoes-30063)</li>
+{{< fa newspaper >}} Media coverage: [The Scientist](https://www.the-scientist.com/news-opinion/paradise-regained-how-the-palmyra-atoll-got-rid-of-invasive-mosquitoes-30063)</li>
 
 <li>Hardesty-Moore, M, S Deinet, R Freeman, GC Titcomb, EM Dillon, K Stears, M Klope, **A Bui**, D Orr, HS Young, A Miller-ter Kuile, LF Hughey, DJ McCauley. "Migration in the Anthropocene: how collective navigation, environmental system, and taxonomy shape the vulnerability of migratory species." *Philosophical Transactions of the Royal Society B.* 2017. [PDF](paper-pdfs/hardesty-moore-2017.pdf).</li>
 

@@ -7,10 +7,13 @@ freeze: auto
 # Enable banner style title blocks
 title-block-banner: true
 
-# source editor: 
+# use lightbox
+filters:
+   - lightbox
+lightbox: auto
+
+# use the source editor
 editor: source
 
-# adding lightbox
-filters: 
-  - lightbox
-lightbox: auto
+# make page layout article
+page-layout: article

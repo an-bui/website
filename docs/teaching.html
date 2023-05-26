@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/waves.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,9 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -130,27 +160,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#teaching-goals" id="toc-teaching-goals" class="nav-link active" data-scroll-target="#teaching-goals">Teaching goals</a></li>
-  <li><a href="#curricular-courses" id="toc-curricular-courses" class="nav-link" data-scroll-target="#curricular-courses">Curricular courses</a>
-  <ul class="collapse">
-  <li><a href="#ecology-and-evolution-of-terrestrial-vertebrates-lab---eemb-113l" id="toc-ecology-and-evolution-of-terrestrial-vertebrates-lab---eemb-113l" class="nav-link" data-scroll-target="#ecology-and-evolution-of-terrestrial-vertebrates-lab---eemb-113l">Ecology and Evolution of Terrestrial Vertebrates Lab - EEMB 113L</a></li>
-  <li><a href="#statistics-for-environmental-studies---envs-193ds" id="toc-statistics-for-environmental-studies---envs-193ds" class="nav-link" data-scroll-target="#statistics-for-environmental-studies---envs-193ds">Statistics for Environmental Studies - ENVS 193DS</a></li>
-  <li><a href="#ecological-modelling---eemb-179279" id="toc-ecological-modelling---eemb-179279" class="nav-link" data-scroll-target="#ecological-modelling---eemb-179279">Ecological Modelling - EEMB 179/279</a></li>
-  <li><a href="#introduction-to-ecology---eemb-120" id="toc-introduction-to-ecology---eemb-120" class="nav-link" data-scroll-target="#introduction-to-ecology---eemb-120">Introduction to Ecology - EEMB 120</a></li>
-  </ul></li>
-  <li><a href="#extracurricular-courses" id="toc-extracurricular-courses" class="nav-link" data-scroll-target="#extracurricular-courses">Extracurricular courses</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2021</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2020</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2019</a></li>
-  </ul></li>
-  <li><a href="#student-reviews" id="toc-student-reviews" class="nav-link" data-scroll-target="#student-reviews">Student reviews</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -172,231 +182,136 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="teaching-goals" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-goals">Teaching goals</h2>
-<p>Ecology is the basis of some of the most compelling stories about the world around us – the patterns of diversity that determine the structure of alpine forests to coastal tidepools are best described in ecological terms using observational, experimental, and theoretical methods. As an instructor in the department of Ecology, Evolution, and Marine Biology, I have three main teaching goals to teach these fundamental methods in ecology: 1. foster an inclusive environment for discussion and critical thinking, 2. connect observations to theory and current applications, and 3. make connections between coursework and future careers.</p>
-<hr>
-</section>
-<section id="curricular-courses" class="level2">
-<h2 class="anchored" data-anchor-id="curricular-courses">Curricular courses</h2>
-<section id="ecology-and-evolution-of-terrestrial-vertebrates-lab---eemb-113l" class="level3">
-<h3 class="anchored" data-anchor-id="ecology-and-evolution-of-terrestrial-vertebrates-lab---eemb-113l">Ecology and Evolution of Terrestrial Vertebrates Lab - EEMB 113L</h3>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 33.3%;justify-content: center;">
-<figure class="figure">
-<p><a href="images/morro-bay.JPG" class="lightbox" data-description="Students
-
-looking
-
-at
-
-sea
-
-otters
-
-through
-
-binoculars
-
-in
-
-Morro
-
-Bay,
-
-Fall
-
-2019." data-gallery="113L"><img src="images/morro-bay.JPG" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 33.3%;justify-content: center;">
-<figure class="figure">
-<p><a href="images/sedgwick-coverboard.jpeg" class="lightbox" data-description="Coverboard
-
-at
-
-Sedgwick
-
-Reserve
-
-as
-
-part
-
-of
-
-reptile
-
-monitoring
-
-study,
-
-Fall
-
-2019." data-gallery="113L"><img src="images/sedgwick-coverboard.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 33.3%;justify-content: center;">
-<figure class="figure">
-<p><a href="images/teaching_shorebirds.JPG" class="lightbox" data-description="Comparison
-
-of
-
-different
-
-types
-
-of
-
-probing
-
-bills
-
-using
-
-UCSB
-
-Cheadle
-
-Center
-
-for
-
-Biodiversity
-
-and
-
-Restoration
-
-teaching
-
-specimens.
-
-Species
-
-from
-
-left
-
-to
-
-right
-
-are
-
-Whimbrel,
-
-Long-billed
-
-Curlew,
-
-and
-
-Marbled
-
-Godwit." data-gallery="113L"><img src="images/teaching_shorebirds.JPG" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Organismal ecology and evolution can be understood in the same terms used to describe distinguishing features - for example, bill shape, foot type, and dentition are common “clues” for identifying animals, but these all contribute to a species’ “ecology”: what role does it play in an ecosystem?</p>
-<p>By the end of the class, students will feel confident in their grasp of the following basics of vertebrate ecology:</p>
+<p>Ecology is the basis of some of the most compelling stories about the world around us – the patterns of diversity that determine the structure of alpine forests to coastal tidepools are best described in ecological terms using observational, experimental, and theoretical methods. As an instructor in the department of Ecology, Evolution, and Marine Biology, I have three main teaching goals to teach these fundamental methods in ecology:</p>
 <ol type="1">
-<li>To identify terrestrial vertebrates using “ecological clues”: habitat, behavior, morphology<br>
+<li>foster an inclusive environment for discussion and critical thinking,<br>
 </li>
-<li>To understand animal survey methods and how they fit into experimental design</li>
+<li>connect observations to theory and current applications, and<br>
+</li>
+<li>make connections between coursework and future careers.</li>
 </ol>
-<p>This class fulfills these goals with a combination of nature walks, monitoring of local field sites, assignments, and assessments for students to track their progress throughout the quarter.<br>
-</p>
-<p>Please see the Fall 2022 syllabus for this course <a href="https://docs.google.com/document/d/1cCA5BxasTRcdeEKatId02q91XdXcQr0wBsXxHYKyu80/edit?usp=sharing">here</a>.</p>
-<p>Media coverage: <a href="https://www.news.ucsb.edu/2018/018616/field-tripping">UCSB Current</a></p>
-<p align="center">
-<iframe src="https://player.vimeo.com/video/249854405?h=20f3b36e05&amp;color=c6e7ff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
-</iframe>
-</p>
-<p class="custom-figcaption">
-<a href="https://vimeo.com/249854405">Field Tripping</a> from <a href="https://vimeo.com/ucsantabarbara">UC Santa Barbara</a> on <a href="https://vimeo.com">Vimeo</a>.
-</p>
-<p><em>Institution: University of California, Santa Barbara</em><br>
-<em>Level: Upper division undergraduate, 2 units</em><br>
-<em>Role: Head Teaching Assistant</em><br>
-<em>Quarters taught: Fall 2017, Winter 2018, Fall 2018, Fall 2019, Fall 2020, Fall 2021, Fall 2022</em></p>
-</section>
-<section id="statistics-for-environmental-studies---envs-193ds" class="level3">
-<h3 class="anchored" data-anchor-id="statistics-for-environmental-studies---envs-193ds">Statistics for Environmental Studies - ENVS 193DS</h3>
-<p>In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:<br>
-1. Describe basic concepts of probability and statistics<br>
-2. Identify appropriate statistical analyses to test hypotheses<br>
-3. Conduct statistical analyses and visualize data using the R programming language<br>
-4. Implement best practices for reproducible analysis and collaborative work<br>
-5. Interpret and contextualize statistical results in general concepts from environmental studies</p>
-<p>Please see the Spring 2023 syllabus for this course <a href="https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing">here</a>.</p>
-<p><em>Institution: University of California, Santa Barbara</em><br>
-<em>Level: Upper division undergraduate, 4 units</em><br>
-<em>Role: Instructor of record</em><br>
-<em>Quarters taught: Spring 2023</em></p>
-</section>
-<section id="ecological-modelling---eemb-179279" class="level3">
-<h3 class="anchored" data-anchor-id="ecological-modelling---eemb-179279">Ecological Modelling - EEMB 179/279</h3>
-<p>In this course, students learn foundational theoretical models in ecology. I taught students how to implement models in code using R and RStudio. By the end of the course, students confidently 1) navigated RMarkdown structure, 2) knew how to write and execute models in R, and 3) presented their results from a final project in which they analyzed an existing theoretical model.<br>
-</p>
-<p><em>Institution: University of California, Santa Barbara</em><br>
-<em>Level: Upper division undergraduate and graduate, 4 units</em><br>
-<em>Role: Teaching Assistant</em><br>
-<em>Quarters taught: Winter 2019, Winter 2020</em></p>
-</section>
-<section id="introduction-to-ecology---eemb-120" class="level3">
-<h3 class="anchored" data-anchor-id="introduction-to-ecology---eemb-120">Introduction to Ecology - EEMB 120</h3>
-<p>This course provides a broad overview of ecological concepts from individuals to ecosystems. I taught students how to apply those concepts to current research and parse ecological literature. By the end of the course, students were confident in their skills of 1) reading scientific literature, 2) understanding study implications, and 3) placing research in the context of ecological theory.</p>
-<p><em>Institution: University of California, Santa Barbara</em><br>
-<em>Level: Upper division undergraduate, 4 units</em><br>
-<em>Role: Teaching Assistant</em><br>
-<em>Quarters taught: Spring 2018, Spring 2019, Spring 2020</em></p>
-<p>Please see my <a href="CV/Bui-An_CV.pdf">CV</a> for a complete list of courses taught.</p>
-</section>
-</section>
-<section id="extracurricular-courses" class="level2">
-<h2 class="anchored" data-anchor-id="extracurricular-courses">Extracurricular courses</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2021</h3>
-<p>R-Ladies Santa Barbara. “Putting the fun in FUNctions.”<br>
-Data Analysis and Coding Club. “Intro to R.” Series of 4 workshops.</p>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">2020</h3>
-<p>Southern California Coastal Water Resource Project. “Introduction to community analysis in <code>vegan</code>.”<br>
-R-Ladies Santa Barbara. “Data Visualization Part 1.” Co-taught with S Csik and J Verstaen.<br>
-UCSC SCRUBs R Group. “Introduction to community analysis in <code>vegan</code>.”</p>
-</section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2">2019</h3>
-<p>EcoDataScience. “Introduction to community analysis in <code>vegan</code>.”<br>
-UCSB EEMB. “Community analysis in <code>vegan</code>.”<br>
-UCSB Science &amp; Engineering Research Academy. “Introduction to R.”<br>
-R-Ladies Santa Barbara. “Intro to the Tidyverse.” Co-taught with S Csik.<br>
-UCSB EEMB. “Intro to the Tidyverse.” Co-taught with S Csik.</p>
-</section>
-</section>
-<section id="student-reviews" class="level2">
-<h2 class="anchored" data-anchor-id="student-reviews">Student reviews</h2>
-<p>Please see student evaluations from 2015-2019 <a href="CV/Bui_An-ESCI_report.pdf">here</a>. &nbsp;</p>
-<p>Responses to: “What specific aspects of your TA’s teaching were most useful for your learning?”<br>
-- “An is an R wizard. Always seemed to know what she was doing and how to help. Grateful she would post the notes after lab!” (EEMB 179, Winter 2021)<br>
-- “An is the best TA I have ever had. She is so vastly knowledgable, and shows obvious dedication to the course and her students. She is beyond helpful, and otherwise the only person on the planet who could keep me engaged for a three hour coding lab.” (EEMB 179, Winter 2021)<br>
-- “An is probably my favorite TA at UCSB. She was so patient during the long labs and answered questions well. Skilled at troubleshooting problems. She replied to emails very quickly and was understanding with deadlines. I appreciate her so much and think that she will become a great professor in the future.” (EEMB 179, Winter 2021)<br>
-- “She was well organized, gave us plenty of resources to help us succeed, and was super friendly and approachable. In addition, she explained class material well and asked useful questions that helped us learn the material ourselves.” (EEMB 120, Spring 2021)<br>
-- “I like the way An presented her teaching as she was very clear, conscise, yet made the readings a lot easier to understand by putting it in simpler terms. She broke down each part of the readings really nicely and it helped me understand the papers a lot more.” (EEMB 120, Spring 2021)<br>
-- “She was very friendly and clear during all of our sections. She made them enjoyable and was great at breaking awkward silences by asking followup questions or by clarifying the question she had asked.” (EEMB 120, Spring 2021)<br>
-- “An was wonderful, even when our class was slow to answer questions (probably because it was 8am on a friday <em>[sic]</em>) she was always encouraging and patient. She explained concepts thoroughly and I like how calming her class was. She made a safe space to get answers wrong and open up discussions about some difficult to understand concepts.” (EEMB 120, Spring 2021)</p>
-<p>Responses to: “What were the TA’s strengths and/or weaknesses as a teacher?”<br>
-- “An made sure that everyone including me understood the different parts of code and why we were doing them even when she was going too fast. I appreciate that she was willing to work with people individually in order to make them understand the topic and why we were doing what we were doing.” (EEMB 179, Winter 2020)<br>
-- “An was very good at explaining difficult concepts in R in a way that was easy to understand for beginners but gave us the tools and foundation to tackle increasingly complex problems.” (EEMB 179, Winter 2020)</p>
+<p>Please see each page for course details, or my <a href="CV/Bui-An_CV.pdf">CV</a> for a complete list of courses.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1685136862686" data-listing-reading-time-sort="2">
+<a href="./teaching/01_EEMB-113L/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./teaching/01_EEMB-113L/teaching_shorebirds.JPG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ecology and Evolution of Terrestrial Vertebrates Lab
+</h5>
+<div class="card-text listing-description">
+EEMB 113L <br> Head Teaching Assistant
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1685135518411" data-listing-reading-time-sort="1">
+<a href="./teaching/02_ENVS-193DS/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./teaching/02_ENVS-193DS/diagnostics.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistics for Environmental Studies
+</h5>
+<div class="card-text listing-description">
+ENVS 193DS <br> Instructor of Record
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1685136850408" data-listing-reading-time-sort="1">
+<a href="./teaching/04_EEMB-179/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./teaching/04_EEMB-179/for-loop.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ecological Modelling
+</h5>
+<div class="card-text listing-description">
+EEMB 179/279 <br> Teaching Assistant
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1685136293438" data-listing-reading-time-sort="3">
+<a href="./teaching/09_student-reviews/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa.png?h=ef8e944e5633d60890b3a74c39c74856" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reviews
+</h5>
+<div class="card-text listing-description">
+Please see student evaluations from 2015-2019 here. &nbsp;
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1685135493547" data-listing-reading-time-sort="1">
+<a href="./teaching/03_EEMB-120/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./teaching/03_EEMB-120/section-slide.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Ecology
+</h5>
+<div class="card-text listing-description">
+EEMB 120 <br> Teaching Assistant
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -631,7 +546,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":true,"openEffect":"zoom","closeEffect":"zoom"});</script>
 
 
 

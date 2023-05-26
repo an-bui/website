@@ -1,0 +1,17 @@
+---
+title: "Ecological Modelling"
+description: "EEMB 179/279 <br> Teaching Assistant"
+image: for-loop.png
+editor: source
+---
+
+![Example of a `for()` loop to simulate populations of fished species with nested loops.](for-loop.png){fig-alt="Image of code used to simulate populations of fished species with nested loops. The code is annotated with comments on how it is structured."}
+
+## {{< fa file >}} Description
+
+**Institution:** University of California, Santa Barbara*\
+**Level:** Upper division undergraduate and graduate, 4 units*\
+**Role:** Teaching Assistant*\
+**Quarters taught:** Winter 2019, Winter 2020*
+
+In this course, students learn foundational theoretical models in ecology. I taught students how to implement models in code using R and RStudio. By the end of the course, students confidently 1) navigated RMarkdown structure, 2) knew how to write and execute models in R, and 3) presented their results from a final project in which they analyzed an existing theoretical model.\

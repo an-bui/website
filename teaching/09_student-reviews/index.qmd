@@ -1,0 +1,24 @@
+---
+title: "Reviews"
+image: https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa.png?h=ef8e944e5633d60890b3a74c39c74856
+editor: source
+---
+
+![Artwork by [Allison Horst](https://allisonhorst.com/) depicting monsters encouraging students to learn!](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa.png?h=ef8e944e5633d60890b3a74c39c74856){width="600"}
+
+## Student reviews
+
+Please see student evaluations from 2015-2019 [here](CV/Bui_An-ESCI_report.pdf).  
+
+Responses to: "What specific aspects of your TA's teaching were most useful for your learning?"\
+- "An is an R wizard. Always seemed to know what she was doing and how to help. Grateful she would post the notes after lab!" (EEMB 179, Winter 2021)\
+- "An is the best TA I have ever had. She is so vastly knowledgable, and shows obvious dedication to the course and her students. She is beyond helpful, and otherwise the only person on the planet who could keep me engaged for a three hour coding lab." (EEMB 179, Winter 2021)\
+- "An is probably my favorite TA at UCSB. She was so patient during the long labs and answered questions well. Skilled at troubleshooting problems. She replied to emails very quickly and was understanding with deadlines. I appreciate her so much and think that she will become a great professor in the future." (EEMB 179, Winter 2021)\
+- "She was well organized, gave us plenty of resources to help us succeed, and was super friendly and approachable. In addition, she explained class material well and asked useful questions that helped us learn the material ourselves." (EEMB 120, Spring 2021)\
+- "I like the way An presented her teaching as she was very clear, conscise, yet made the readings a lot easier to understand by putting it in simpler terms. She broke down each part of the readings really nicely and it helped me understand the papers a lot more." (EEMB 120, Spring 2021)\
+- "She was very friendly and clear during all of our sections. She made them enjoyable and was great at breaking awkward silences by asking followup questions or by clarifying the question she had asked." (EEMB 120, Spring 2021)\
+- "An was wonderful, even when our class was slow to answer questions (probably because it was 8am on a friday *\[sic\]*) she was always encouraging and patient. She explained concepts thoroughly and I like how calming her class was. She made a safe space to get answers wrong and open up discussions about some difficult to understand concepts." (EEMB 120, Spring 2021)
+
+Responses to: "What were the TA's strengths and/or weaknesses as a teacher?"\
+- "An made sure that everyone including me understood the different parts of code and why we were doing them even when she was going too fast. I appreciate that she was willing to work with people individually in order to make them understand the topic and why we were doing what we were doing." (EEMB 179, Winter 2020)\
+- "An was very good at explaining difficult concepts in R in a way that was easy to understand for beginners but gave us the tools and foundation to tackle increasingly complex problems." (EEMB 179, Winter 2020)
