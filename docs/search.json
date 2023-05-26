@@ -144,7 +144,7 @@
     "href": "data-science/figures-in-ggplot/index.html#fa-link-links",
     "title": "Figures in {ggplot2}",
     "section": " Links",
-    "text": "Links\n Workshop repo\n Blog summary, where you can find more of my musings about figure making"
+    "text": "Links\n Workshop repo\n Rendered code\n Blog summary, where you can find more of my musings about figure making"
   },
   {
     "objectID": "data-science/interactive-visualizations/index.html",
@@ -186,7 +186,7 @@
     "href": "data-science/community-analysis-vegan/index.html#fa-link-links",
     "title": "Community analysis with {vegan}",
     "section": " Links",
-    "text": "Links\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup"
+    "text": "Links\n GitHub repository\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup"
   },
   {
     "objectID": "data-science/calecopal/index.html",

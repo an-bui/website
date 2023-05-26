@@ -18,5 +18,7 @@ I gave a workshop on figure customization using `ggplot` and associated packages
 ## {{< fa link >}} Links
 
 {{< fa brands github >}} [Workshop repo](https://github.com/an-bui/figures-in-ggplot)  
-{{< fa file-code>}} [Rendered code](https://an-bui.github.io/figures-in-ggplot/code/ggplot-code-workshop)  
+
+{{< fa file-code >}} [Rendered code](https://an-bui.github.io/figures-in-ggplot/code/ggplot-code-workshop)  
+
 {{< fa rss >}} [Blog summary]((https://an-bui.github.io/figs/posts/2023-02-13_EEMB-R-seminar_figures-in-ggplot)), where you can find more of my musings about figure making

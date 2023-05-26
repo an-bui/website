@@ -18,6 +18,8 @@ This is a workshop on how to use basic community analysis functions in `{vegan}`
 
 ## {{< fa link >}} Links
 
+{{< fa brands github >}} [GitHub repository](https://github.com/an-bui/vegan-workshop)  
+
 {{< fa book >}} [RPubs: vegan cheat sheet](https://rpubs.com/an-bui/vegan-cheat-sheet)  
 
 {{< fa hill-rockslide >}} [Slides from southern CA All Hands useR and R-Ladies Meetup](https://docs.google.com/presentation/d/1tj7PElecpBRl9BMHEihdU32m23CQ4SaA/edit?usp=sharing&ouid=106933509253674445043&rtpof=true&sd=true)
