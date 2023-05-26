@@ -11,7 +11,7 @@
     "href": "research/2021-09_algae-traits/index.html",
     "title": "Marine macroalgae functional traits",
     "section": "",
-    "text": "Functional traits provide a potentially useful way to identify patterns in nature. Functional traits are morphological, physiological, or behavioral characteristics that define species’ roles in ecosystems and responses to environments. Methods of describing species via their traits range from coarse (e.g. functional form or group) to fine (e.g. measuring leaf area), with increasing insight into the functional role of a species with increasing resolution. By defining ecological communities by their functions rather than taxonomic composition, we can make comparisons across communities independently of species identity, making generalization and identification of patterns possible. In this project, I ask what the primary traits defining macroalgal species differences are, and how they can explain patterns through time in changing community composition.\nTo answer these questions, I work in unceded Barbareño Chumash land, or the Santa Barbara Coastal Long-term Ecological Research site (SBC LTER). I hypothesized that the most meaningful traits differentiating species would be related to photosynthesis and competition for space, given that light and substrate are major determinants of benthic macroalgal community structure. I measured a suite of traits related to light capture, physical structure, and herbivore palatability for the most common species in the SBC LTER.\n\n\n\nSome samples I have collected.\n\n\nPreliminary data suggest that traits related to vertical space use and light competition (e.g. total individual dry mass, maximum height, frond length, photosynthetic efficiency) define one principal component or axis along which species can be differentiated, while traits related to resource use (e.g. thallus dry matter content, thallus surface area to volume ratio) define another principal component.\n\n\n\nPCA of algal traits. Each point is an individual."
+    "text": "Cryptopleura ruprechtiana.\n\n\nFunctional traits provide a potentially useful way to identify patterns in nature. Functional traits are morphological, physiological, or behavioral characteristics that define species’ roles in ecosystems and responses to environments. Methods of describing species via their traits range from coarse (e.g. functional form or group) to fine (e.g. measuring leaf area), with increasing insight into the functional role of a species with increasing resolution. By defining ecological communities by their functions rather than taxonomic composition, we can make comparisons across communities independently of species identity, making generalization and identification of patterns possible. In this project, I ask what the primary traits defining macroalgal species differences are, and how they can explain patterns through time in changing community composition.\nTo answer these questions, I work in unceded Barbareño Chumash land, or the Santa Barbara Coastal Long-term Ecological Research site (SBC LTER). I hypothesized that the most meaningful traits differentiating species would be related to photosynthesis and competition for space, given that light and substrate are major determinants of benthic macroalgal community structure. I measured a suite of traits related to light capture, physical structure, and herbivore palatability for the most common species in the SBC LTER.\n\n\n\nSome samples I have collected.\n\n\nPreliminary data suggest that traits related to vertical space use and light competition (e.g. total individual dry mass, maximum height, frond length, photosynthetic efficiency) define one principal component or axis along which species can be differentiated, while traits related to resource use (e.g. thallus dry matter content, thallus surface area to volume ratio) define another principal component.\n\n\n\nPrincipal components analysis. Each point is an individual. Points are colored by species. Shapes represent sites."
   },
   {
     "objectID": "teaching.html",
@@ -112,6 +112,13 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "data-science/code-notes/index.html",
+    "href": "data-science/code-notes/index.html",
+    "title": "Code notes",
+    "section": "",
+    "text": "Artwork by Allison Horst. Two penguins take a selfie with the Quarto moon!"
+  },
+  {
     "objectID": "data-science/code-notes/index.html#fa-file-description",
     "href": "data-science/code-notes/index.html#fa-file-description",
     "title": "Code notes",
@@ -140,6 +147,13 @@
     "text": "Links\n Workshop repo\n Blog summary, where you can find more of my musings about figure making"
   },
   {
+    "objectID": "data-science/interactive-visualizations/index.html",
+    "href": "data-science/interactive-visualizations/index.html",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "section": "",
+    "text": "An example of an interactive plot using plotly::ggplotly()!"
+  },
+  {
     "objectID": "data-science/interactive-visualizations/index.html#fa-file-description",
     "href": "data-science/interactive-visualizations/index.html#fa-file-description",
     "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
@@ -152,6 +166,13 @@
     "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
     "section": " Links",
     "text": "Links\n Workshop repo\n Workshop slides\n A very non-scientific report using the visualizations from the workshop"
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html",
+    "href": "data-science/community-analysis-vegan/index.html",
+    "title": "Community analysis with {vegan}",
+    "section": "",
+    "text": "Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."
   },
   {
     "objectID": "data-science/community-analysis-vegan/index.html#fa-file-description",
@@ -168,6 +189,13 @@
     "text": "Links\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup"
   },
   {
+    "objectID": "data-science/calecopal/index.html",
+    "href": "data-science/calecopal/index.html",
+    "title": "{calecopal}",
+    "section": "",
+    "text": "calecopal hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn."
+  },
+  {
     "objectID": "data-science/calecopal/index.html#fa-brands-github-install-the-package",
     "href": "data-science/calecopal/index.html#fa-brands-github-install-the-package",
     "title": "{calecopal}",
@@ -179,7 +207,14 @@
     "href": "data-science/calecopal/index.html#fa-palette-description",
     "title": "{calecopal}",
     "section": " Description",
-    "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\nAn example of the calochortus palette in calecopal, which has 5 pink-brown colors, above the flower that inspired the palette, Calochortus catalinae, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals.\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nAn example of the bigsur palette in calecopal on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."
+    "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\ncalochortus, after Calochortus catalinae\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nbigsur,with its inspiration"
+  },
+  {
+    "objectID": "data-science/functions/index.html",
+    "href": "data-science/functions/index.html",
+    "title": "Putting the FUN in functions",
+    "section": "",
+    "text": "Banner image for the workshop, which I drew!"
   },
   {
     "objectID": "data-science/functions/index.html#fa-file-description",
@@ -193,7 +228,7 @@
     "href": "data-science/functions/index.html#fa-pencil-illustrations",
     "title": "Putting the FUN in functions",
     "section": " Illustrations",
-    "text": "Illustrations\n\n\n\nBasic function structure as explained by Saturn.\n\n\n\n\n\nJupiter explains what goes into a function."
+    "text": "Illustrations\n\n\n\nBasic function structure as explained by Saturn.\n\n\n\n\n\nJupiter explains what goes into a function: the function, the arguments, and the output."
   },
   {
     "objectID": "data-science/functions/index.html#fa-link-links",
@@ -201,6 +236,13 @@
     "title": "Putting the FUN in functions",
     "section": " Links",
     "text": "Links\n Github repository\n learnr tutorial\n RPubs"
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html",
+    "href": "data-science/fungal-community-data/index.html",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": "",
+    "text": "Tejon Ranch Conservancy, California."
   },
   {
     "objectID": "data-science/fungal-community-data/index.html#fa-database-fungal-community-data",

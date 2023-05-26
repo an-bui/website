@@ -60,6 +60,9 @@ div.csl-indent {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -189,12 +192,44 @@ div.csl-indent {
 
 
 
-<p align="center">
-<img src="nmds.png" alt="Plot showing community dissimilarity of birds between three land types: dry (pink), mixed (yellow), and riparian (green)." height="60%" width="60%">
-</p><figcaption>
-Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types.
-</figcaption>
-<p></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="nmds.png" class="lightbox" title="Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types." data-gallery="quarto-lightbox-gallery-1" data-description="Plot
+
+showing
+
+community
+
+dissimilarity
+
+of
+
+birds
+
+between
+
+three
+
+land
+
+types:
+
+dry
+
+(pink),
+
+mixed
+
+(yellow),
+
+and
+
+riparian
+
+(green)"><img src="nmds.png" class="img-fluid figure-img" alt="Plot showing community dissimilarity of birds between three land types: dry (pink), mixed (yellow), and riparian (green)"></a></p>
+<figcaption class="figure-caption">Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types.</figcaption>
+</figure>
+</div>
 <section id="fa-file-description" class="level2">
 <h2 class="anchored" data-anchor-id="fa-file-description"><i class="fa-solid fa-file" aria-label="file"></i> Description</h2>
 <p>This is a workshop on how to use basic community analysis functions in <code>{vegan}</code> to calculate species richness, conduct Principal Components Analysis, and create a non-metric multidimensional scaling plot. The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used bird community survey data from <span class="citation" data-cites="adams2019">Adams and Matthews (<a href="#ref-adams2019" role="doc-biblioref">2019</a>)</span>.</p>
@@ -447,6 +482,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":true,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 

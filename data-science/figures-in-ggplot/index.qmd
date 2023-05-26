@@ -4,16 +4,16 @@ image: crab_plot_and_hist_2023-02-28.jpg
 description: workshop for UCSB EEMB R Seminar, Winter 2023
 categories: [workshops, data visualization]
 editor: source
+filters: 
+  - lightbox
+lightbox: auto
 ---
 
 ## {{< fa file >}} Description
 
 I gave a workshop on figure customization using `ggplot` and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from `lterdatasampler`. I _strongly_ believe in the power of making bad things before you make good things, so we made this _supremely ugly_ plot to go over some fundamental `ggplot` theme options, inserting images into plots using `magick`, and arranging them using `patchwork`.  
 
-<p align="center">
-  <img src="crab_plot_and_hist_2023-02-28.jpg" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram." width="90%" height="90%">
-  <figcaption>The ugliest plot!</figcaption>
-</p>
+![The ugliest plot!](crab_plot_and_hist_2023-02-28.jpg){description="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram." fig-alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram."}
 
 ## {{< fa link >}} Links
 

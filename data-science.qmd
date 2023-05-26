@@ -12,4 +12,3 @@ listing:
   filter-ui: true
 page-layout: article
 ---
-

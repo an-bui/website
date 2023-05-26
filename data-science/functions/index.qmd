@@ -3,13 +3,13 @@ title: "Putting the FUN in functions"
 image: https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg
 description: a workshop for R-Ladies Santa Barbara
 categories: [workshops, functions, learnr]
+filters: 
+  - lightbox
+lightbox: auto
 editor: source
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg" alt="Banner image for event titled 'Putting the FUN in functions' against a dark blue background with yellow stars and smiling planets." height="70%" width="70%">
-  <figcaption>Banner image for the workshop, which I drew!</figcaption>
-</p>
+![Banner image for the workshop, which I drew!](https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/title.jpg){fig-alt="Banner image for event titled 'Putting the FUN in functions' against a dark blue background with yellow stars and smiling planets." width=500}
 
 ## {{< fa file >}} Description
 
@@ -17,15 +17,11 @@ This is a workshop on writing functions in R, with editing from [Sam Csik](https
 
 ## {{< fa pencil >}} Illustrations
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-structure.jpg" alt="A smiling planet Saturn explains function structure against a dark blue background." height="70%" width="70%">
-  <figcaption>Basic function structure as explained by Saturn.</figcaption>
-</p>
+![Basic function structure as explained by Saturn.](https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-structure.jpg){description="A smiling planet Saturn explains function structure against a dark blue background. A function takes arguments, does something with those arguments, then returns a new object." fig-alt="A smiling planet Saturn explains function structure against a dark blue background. A function takes arguments, does something with those arguments, then returns a new object." width=500}
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-components.jpg" alt="Jupiter explains what goes into a function: the function, the arguments, and the output." height="70%" width="70%">
-  <figcaption>Jupiter explains what goes into a function.</figcaption>
-</p>
+
+![Jupiter explains what goes into a function: the function, the arguments, and the output.](https://raw.githubusercontent.com/an-bui/RLadiesSB-FUNctions/main/figures/function-components.jpg){description="Jupiter explains that using a function takes three steps: 1) the function, 2) the arguments, then 3) the output." fig-alt="Jupiter explains that using a function takes three steps: 1) the function, 2) the arguments, then 3) the output." width=500}
+
 
 ## {{< fa link >}} Links
 

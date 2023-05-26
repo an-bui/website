@@ -8,7 +8,7 @@ editor: source
 
 <p align="center">
   <img src="/images/research_fungi-oaks.jpg" height="70%" width="70%">
-  <figcaption>Tejon Ranch Conservancy, California. </figcaption>
+  <p class="custom-figcaption">Tejon Ranch Conservancy, California. </p>
 </p>
 
 ## {{< fa database >}} Fungal community data

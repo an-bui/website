@@ -8,7 +8,7 @@ editor: source
 
 <p align="center">
   <img src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3562a6a2-93d6-4507-93f4-1294cd4cd02b.png?h=2be2d5da4cd78cc55d3ea2609195007f" alt="Two happy penguins taking a selfie together in a snowy landscape." height="80%" width="80%">
-  <figcaption>Artwork by [Allison Horst.](https://allisonhorst.com/) Two penguins take a selfie with the Quarto moon!</figcaption>
+  <p class="custom-figcaption">Artwork by [Allison Horst.](https://allisonhorst.com/) Two penguins take a selfie with the Quarto moon!</p>
 </p>
 
 ## {{< fa file >}} Description

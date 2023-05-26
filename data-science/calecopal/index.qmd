@@ -3,12 +3,13 @@ title: "`{calecopal}`"
 image: hex-banner.png
 description: a California-inspired Package of Color Palettes
 categories: [packages, color palettes]
+filters: 
+  - lightbox
+lightbox: auto
 editor: source
 ---
 
-<p align="center">
-  <img src="hex-sticker.png" alt="Hexagonal sticker with calecopal in black text at the top. The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn." height="40%" width="40%">
-</p>
+![`calecopal` hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn.](hex-sticker.png){fig-alt="Hexagonal sticker with calecopal in black text at the top. The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn." width=200 .nolightbox}
 
 ## {{< fa brands github >}} [Install the package!](https://github.com/an-bui/calecopal)
 
@@ -18,17 +19,11 @@ This is a collection of 45 color palettes, all inspired by California ecosystems
 
 Some of my favorites include `calochortus` (after my favorite wildflower):
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" height="70%" width="70%">
-  <figcaption>An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals. </figcaption>
-</p>
+![`calochortus`, after _Calochortus catalinae_](https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png){description="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." fig-alt="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." width=500}
 
 And `bigsur` (which is on the hex sticker!)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" height="70%" width="70%">
-  <figcaption>An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette.</figcaption>
-</p>
+![`bigsur`,with its inspiration](https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png){description="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette." fig-alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."}
 
 # {{< fa book >}} Pronunciation
 
