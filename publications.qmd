@@ -39,4 +39,4 @@ Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Context-dependent e
 
 ## Code note
 
-I battled for a long time to make the reverse numbered list on this page work. If you want to implement this on your own website, the code for this page is [here](https://github.com/an-bui/an-bui/blob/main/publications.qmd).
+I battled for a long time to make the reverse numbered list on this page work. If you want to implement this on your own website, the code for this page is [here](https://github.com/an-bui/website/blob/main/publications.qmd).
