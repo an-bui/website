@@ -1,0 +1,33 @@
+---
+title: "Intro to the `{tidyverse}`"
+description: "the one that started it all"
+image: https://www.tidyverse.org/images/tidyverse-default.png
+categories: [workshops]
+editor: source
+---
+
+## {{< fa file >}} Description
+_or, general musings_  
+
+In 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn't know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn't know what the RStudio IDE was, unfortunately).  
+
+[Sam Csik](https://samanthacsik.github.io/) and I were in the same boat, so we both elbowed our way into [Allison Horst](https://allisonhorst.com/allison-horst)'s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, [Jamie Montgomery](https://www.jamiecmontgomery.com/), and [Julie Stewart-Lowndes](https://jules32.github.io/)). They asked for ideas for workshops - especially anyone who'd want to lead a workshop - and emphasized that you didn't have to be an _expert_ in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!  
+
+Sam and I thought we could lead a workshop on wrangling data using `{tidyverse}` packages, so we volunteered. I remember being pretty nervous going in (how was _I_, a mere _amateur_ going to teach people how to code?). But it went great!  
+
+![Sam and me, after a successful workshop!](https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/sam_an.jpg){fig-alt="Two smiling women, both dressed in black, stand in front of a projected screen of their work." width=500}
+
+And flash forward to 2023: Sam and I, along with [Camila Vargas Poulsen](https://github.com/camilavargasp) and [Danielle Ferraro](https://www.linkedin.com/in/daniellemferraro), are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [GitHub repository](https://github.com/samanthacsik/Intro-to-the-Tidyverse)  
+
+{{< fa book >}} [RPubs document](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse)
+
+
+
+
+
+
+

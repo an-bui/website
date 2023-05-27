@@ -81,7 +81,7 @@
     "href": "data-science.html",
     "title": "Data Science",
     "section": "",
-    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "data-science/code-notes/index.html",
@@ -229,6 +229,27 @@
     "title": "Bui et al. 2020 data and analysis",
     "section": " Links",
     "text": "Links\n Zenodo entry\n GitHub repository"
+  },
+  {
+    "objectID": "data-science/intro-to-tidyverse/index.html",
+    "href": "data-science/intro-to-tidyverse/index.html",
+    "title": "Intro to the {tidyverse}",
+    "section": "",
+    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
+  },
+  {
+    "objectID": "data-science/intro-to-tidyverse/index.html#fa-file-description",
+    "href": "data-science/intro-to-tidyverse/index.html#fa-file-description",
+    "title": "Intro to the {tidyverse}",
+    "section": "",
+    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
+  },
+  {
+    "objectID": "data-science/intro-to-tidyverse/index.html#fa-link-links",
+    "href": "data-science/intro-to-tidyverse/index.html#fa-link-links",
+    "title": "Intro to the {tidyverse}",
+    "section": " Links",
+    "text": "Links\n GitHub repository\n RPubs document"
   },
   {
     "objectID": "index.html",

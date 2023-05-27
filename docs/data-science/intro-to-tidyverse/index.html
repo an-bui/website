@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-09-22">
-<meta name="description" content="Over changing climatic conditions, fungal community composition may differ, but for some mutualist groups, their function could be retained.">
+<meta name="description" content="the one that started it all">
 
-<title>An Bui - Soil fungal community composition and function in a changing climate</title>
+<title>An Bui - Intro to the {tidyverse}</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,6 +44,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,15 +132,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Soil fungal community composition and function in a changing climate</h1>
+      <h1 class="title">Intro to the <code>{tidyverse}</code></h1>
                   <div>
         <div class="description">
-          Over changing climatic conditions, fungal community composition may differ, but for some mutualist groups, their function could be retained.
+          the one that started it all
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">fungi</div>
-                <div class="quarto-category">research</div>
+                <div class="quarto-category">workshops</div>
               </div>
                   </div>
   </div>
@@ -148,12 +148,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">September 22, 2020</p>
-      </div>
-    </div>
     
       
     </div>
@@ -167,7 +161,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#fa-file-description" id="toc-fa-file-description" class="nav-link active" data-scroll-target="#fa-file-description"><i class="fa-solid fa-file" aria-label="file"></i> Description</a></li>
+  <li><a href="#fa-link-links" id="toc-fa-link-links" class="nav-link" data-scroll-target="#fa-link-links"><i class="fa-solid fa-link" aria-label="link"></i> Links</a></li>
   </ul>
 </nav>
     </div>
@@ -177,36 +172,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="fa-file-description" class="level2">
+<h2 class="anchored" data-anchor-id="fa-file-description"><i class="fa-solid fa-file" aria-label="file"></i> Description</h2>
+<p><em>or, general musings</em></p>
+<p>In 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).</p>
+<p><a href="https://samanthacsik.github.io/">Sam Csik</a> and I were in the same boat, so we both elbowed our way into <a href="https://allisonhorst.com/allison-horst">Allison Horst</a>’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, <a href="https://www.jamiecmontgomery.com/">Jamie Montgomery</a>, and <a href="https://jules32.github.io/">Julie Stewart-Lowndes</a>). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an <em>expert</em> in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!</p>
+<p>Sam and I thought we could lead a workshop on wrangling data using <code>{tidyverse}</code> packages, so we volunteered. I remember being pretty nervous going in (how was <em>I</em>, a mere <em>amateur</em> going to teach people how to code?). But it went great!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="research_fungi-oaks.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Tejon Ranch Conservancy, California"><img src="research_fungi-oaks.jpg" class="img-fluid figure-img" alt="Sampling site. Oak trees tower over a green grassland with clouds in the background."></a></p>
-<figcaption class="figure-caption">Tejon Ranch Conservancy, California</figcaption>
+<p><a href="https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/sam_an.jpg" class="lightbox" title="Sam and me, after a successful workshop!" data-gallery="quarto-lightbox-gallery-1"><img src="https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/sam_an.jpg" class="img-fluid figure-img" alt="Two smiling women, both dressed in black, stand in front of a projected screen of their work." width="500"></a></p>
+<figcaption class="figure-caption">Sam and me, after a successful workshop!</figcaption>
 </figure>
 </div>
-<p>A large part of ecosystem function in woodland systems depends on soil fungal communities. However, global climate change has the potential to fundamentally alter these communities as fungal species are filtered with changing environmental conditions. Therefore, a fundamental question is: Will fungal communities continue to provide the same functions under the stress of climate change?</p>
-<p>I had the privilege of being able to answer this question by working in unceded Kawaiisu territory, or the Tehachapi Mountains in south-central California with a collaborator, <a href="https://devynorr.weebly.com/">Dr.&nbsp;Devyn Orr</a>. In this study, we examined the potential effects of climate on host-associated (i.e.&nbsp;tree-associated) soil fungal communities at climatically distinct sites, where more arid conditions represent likely regional climate futures. We found that soil fungal community composition changes strongly across sites, with species richness and diversity being highest at the most arid site.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="research_fungi-nmds.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="NMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites." data-description="Soil
-
-fungal
-
-communities
-
-differ
-
-by
-
-climatic
-
-condition."><img src="research_fungi-nmds.jpg" class="img-fluid figure-img" alt="NMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites." width="400"></a></p>
-<figcaption class="figure-caption">NMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites.</figcaption>
-</figure>
-</div>
-<p>However, host association may buffer the effects of climate on community composition, as host-associated fungal communities are more similar to each other across climatically distinct sites than the whole fungal community. Lastly, an examination of functional traits for ectomycorrhizal fungi, a well-studied guild of fungal mutualist species, showed that stress-tolerant traits were more abundant at arid sites than mesic sites, providing a mechanistic understanding of these community patterns. Taken together, our results indicate that fungal community composition will likely shift with future climate change but that host association may buffer these effects, with shifts in functional traits having implications for future ecosystem function.</p>
-<section id="publications" class="level1">
-<h1>Publications</h1>
-<p><strong>Bui, A</strong>, D Orr, M Lepori-Bui, K Konicek, HS Young, HV Moeller. “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” <em>FEMS Microbiology Ecology.</em> 2020.</p>
+<p>And flash forward to 2023: Sam and I, along with <a href="https://github.com/camilavargasp">Camila Vargas Poulsen</a> and <a href="https://www.linkedin.com/in/daniellemferraro">Danielle Ferraro</a>, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!</p>
+</section>
+<section id="fa-link-links" class="level2">
+<h2 class="anchored" data-anchor-id="fa-link-links"><i class="fa-solid fa-link" aria-label="link"></i> Links</h2>
+<p><i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/samanthacsik/Intro-to-the-Tidyverse">GitHub repository</a></p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse">RPubs document</a></p>
 
 
 </section>
@@ -446,7 +429,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":true,"closeEffect":"zoom"});</script>
 
 
 
