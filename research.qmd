@@ -7,7 +7,7 @@ listing:
   image-align: right
   max-description-length: 175
   date-format: medium
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full

@@ -20,7 +20,7 @@ website:
         href: fieldwork.qmd
       - text: CV
         href: CV/Bui-An_CV.pdf
-      - icon: palette-fill
+      - text: Prints
         href: https://an-bui.github.io/shop/
       - icon: github
         href: https://github.com/an-bui
