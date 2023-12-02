@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="ENVS 193DS   Instructor of Record">
+<meta name="description" content="A tutorial on how to use R for data wrangling, analysis, and visualization">
 
-<title>An Bui - Statistics for Environmental Studies</title>
+<title>An Bui - Basics of R - California Ecology and Conservation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,9 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -131,13 +128,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Statistics for Environmental Studies</h1>
+      <h1 class="title">Basics of R - California Ecology and Conservation</h1>
                   <div>
         <div class="description">
-          ENVS 193DS <br> Instructor of Record
+          A tutorial on how to use R for data wrangling, analysis, and visualization
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">workshops</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -168,36 +168,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="lecture-figure.png" class="lightbox" title="Visual representation of how comparison of means between groups works. There are three pairs of samples, one orange and one green, each with different distances between means." data-gallery="quarto-lightbox-gallery-1"><img src="lecture-figure.png" class="img-fluid figure-img" alt="Visual representation of how comparison of means between groups works. There are three pairs of samples, one orange and one green, each with different distances between means."></a></p>
-<figcaption class="figure-caption">Visual representation of how comparison of means between groups works. There are three pairs of samples, one orange and one green, each with different distances between means.</figcaption>
-</figure>
-</div>
+<p align="center">
+<img src="../../images/pond-data-fig.png" height="70%" width="70%">
+</p><p class="custom-figcaption">
+An example scatter plot with model predictions and confidence interval ribbon.
+</p>
+<p></p>
 <section id="fa-file-description" class="level2">
 <h2 class="anchored" data-anchor-id="fa-file-description"><i class="fa-solid fa-file" aria-label="file"></i> Description</h2>
-<p><strong>Institution:</strong> University of California, Santa Barbara<br>
-<strong>Level:</strong> Upper division undergraduate, 4 units<br>
-<strong>Role</strong>: Instructor of record<br>
-<strong>Quarters taught:</strong> Spring 2023</p>
-<p>In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:<br>
-</p>
-<ol type="1">
-<li>Describe basic concepts of probability and statistics<br>
-</li>
-<li>Identify appropriate statistical analyses to test hypotheses<br>
-</li>
-<li>Conduct statistical analyses and visualize data using the R programming language<br>
-</li>
-<li>Implement best practices for reproducible analysis and collaborative work<br>
-</li>
-<li>Interpret and contextualize statistical results in general concepts from environmental studies</li>
-</ol>
+<p>This was a workshop on using R for data cleaning, wrangling, preliminary analysis, and visualization all based on mostly <code>{tidyverse}</code> with some bonus model predictions from <code>{ggeffects}</code>. I designed it for the <a href="https://ucnrs.org/teaching/cec/">California Ecology and Conservation</a> course in Fall 2023, which I was lucky enough to support as a TA.</p>
 </section>
 <section id="fa-link-links" class="level2">
 <h2 class="anchored" data-anchor-id="fa-link-links"><i class="fa-solid fa-link" aria-label="link"></i> Links</h2>
-<p><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i> Syllabus: <a href="https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing">Spring 2023</a></p>
-<p><i class="fa-solid fa-sitemap" aria-label="sitemap"></i> Course website: <a href="https://an-bui.github.io/ES-193DS-W23/">Spring 2023</a></p>
+<p><i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/an-bui/CEC-R-tutorial">GitHub repository</a></p>
+<p><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> <a href="https://an-bui.shinyapps.io/CEC-R-tutorial/#section-about-and-credits">learnr tutorial</a></p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://rpubs.com/an-bui/CEC-R-tutorial">RPubs</a></p>
 
 
 </section>
@@ -437,7 +422,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":true,"closeEffect":"zoom","selector":".lightbox"});</script>
 
 
 

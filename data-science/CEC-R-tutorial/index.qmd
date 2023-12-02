@@ -1,0 +1,26 @@
+---
+title: "Basics of R - California Ecology and Conservation"
+image: /images/pond-data-fig.png
+description: A tutorial on how to use R for data wrangling, analysis, and visualization
+categories: [workshops]
+editor: source
+---
+
+<p align="center">
+  <img src="/images/pond-data-fig.png" height="70%" width="70%">
+  <p class="custom-figcaption">An example scatter plot with model predictions and confidence interval ribbon. </p>
+</p>
+
+## {{< fa file >}} Description
+
+This was a workshop on using R for data cleaning, wrangling, preliminary analysis, and visualization all based on mostly `{tidyverse}` with some bonus model predictions from `{ggeffects}`. I designed it for the [California Ecology and Conservation](https://ucnrs.org/teaching/cec/) course in Fall 2023, which I was lucky enough to support as a TA. 
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [GitHub repository](https://github.com/an-bui/CEC-R-tutorial)  
+
+{{< fa chalkboard-user >}} [learnr tutorial](https://an-bui.shinyapps.io/CEC-R-tutorial/#section-about-and-credits)  
+
+{{< fa book >}} [RPubs](https://rpubs.com/an-bui/CEC-R-tutorial)
+
+

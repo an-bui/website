@@ -1,0 +1,6 @@
+- source: project
+  netlify:
+    - id: b728eece-1a8a-421b-945f-35e932c70df9
+      url: 'https://fantastic-snickerdoodle-1547a4.netlify.app'
+    - id: bf64607a-4529-4628-9246-db7ffce9dff4
+      url: 'https://phenomenal-pony-68df41.netlify.app'

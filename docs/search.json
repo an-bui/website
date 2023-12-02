@@ -81,7 +81,7 @@
     "href": "data-science.html",
     "title": "Data Science",
     "section": "",
-    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of R - California Ecology and Conservation\n\n\n\nworkshops\n\n\n\nA tutorial on how to use R for data wrangling, analysis, and visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "data-science/code-notes/index.html",
@@ -229,6 +229,27 @@
     "title": "Bui et al. 2020 data and analysis",
     "section": " Links",
     "text": "Links\n Zenodo entry\n GitHub repository"
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html",
+    "href": "data-science/CEC-R-tutorial/index.html",
+    "title": "Basics of R - California Ecology and Conservation",
+    "section": "",
+    "text": "An example scatter plot with model predictions and confidence interval ribbon."
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html#fa-file-description",
+    "href": "data-science/CEC-R-tutorial/index.html#fa-file-description",
+    "title": "Basics of R - California Ecology and Conservation",
+    "section": " Description",
+    "text": "Description\nThis was a workshop on using R for data cleaning, wrangling, preliminary analysis, and visualization all based on mostly {tidyverse} with some bonus model predictions from {ggeffects}. I designed it for the California Ecology and Conservation course in Fall 2023, which I was lucky enough to support as a TA."
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html#fa-link-links",
+    "href": "data-science/CEC-R-tutorial/index.html#fa-link-links",
+    "title": "Basics of R - California Ecology and Conservation",
+    "section": " Links",
+    "text": "Links\n GitHub repository\n learnr tutorial\n RPubs"
   },
   {
     "objectID": "data-science/intro-to-tidyverse/index.html",
