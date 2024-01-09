@@ -31,7 +31,7 @@ This class fulfills these goals with a combination of nature walks, monitoring o
 
 ## {{< fa link >}} Links
 
-{{< fa paper-plane >}} Syllabus: [Fall 2022](https://docs.google.com/document/d/1cCA5BxasTRcdeEKatId02q91XdXcQr0wBsXxHYKyu80/edit?usp=sharing)
+{{< fa paper-plane >}} Syllabus: [Winter 2024](https://docs.google.com/document/d/1SWw9scQn3iCnQH9Y2uDgaKzyofauzf9xKpr5uFGSh5w/edit?usp=sharing)
 
 {{< fa newspaper >}} Media coverage: [UCSB Current](https://www.news.ucsb.edu/2018/018616/field-tripping)
 
