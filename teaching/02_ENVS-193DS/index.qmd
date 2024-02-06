@@ -26,4 +26,4 @@ In this course, students learn to conduct statistical analysis and contextualize
 
 {{< fa paper-plane >}} Syllabus: [Spring 2023](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing)
 
-{{< fa sitemap >}} Course website: [Spring 2023](https://an-bui.github.io/ES-193DS-W23/)
+{{< fa sitemap >}} Course website: [Spring 2023](https://spring-2023.envs-193ds.com/)
