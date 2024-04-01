@@ -18,7 +18,7 @@ editor: source
 **Institution:** University of California, Santa Barbara\
 **Level:** Upper division undergraduate, 2 units\
 **Role:** Head Teaching Assistant\
-**Quarters taught:** Fall 2017, Winter 2018, Fall 2018, Fall 2019, Fall 2020, Fall 2021, Fall 2022
+**Quarters taught:** Fall 2017, Winter 2018, Fall 2018, Fall 2019, Fall 2020, Fall 2021, Fall 2022, Winter 2024
 
 Organismal ecology and evolution can be understood in the same terms used to describe distinguishing features - for example, bill shape, foot type, and dentition are common "clues" for identifying animals, but these all contribute to a species' "ecology": what role does it play in an ecosystem?
 

@@ -12,7 +12,7 @@ editor: source
 **Institution:** University of California, Santa Barbara\
 **Level:** Upper division undergraduate, 4 units\
 **Role**: Instructor of record\
-**Quarters taught:** Spring 2023
+**Quarters taught:** Spring 2023, Spring 2024  
 
 In this course, students learn to conduct statistical analysis and contextualize results in environmental science. By the end of the quarter, students will be able to:\
 
@@ -24,6 +24,6 @@ In this course, students learn to conduct statistical analysis and contextualize
 
 ## {{< fa link >}} Links
 
-{{< fa paper-plane >}} Syllabus: [Spring 2023](https://docs.google.com/document/d/1-nfAkIMgibgyTjsu6-vHZhhZfXCpV668dTD_a2WC0G8/edit?usp=sharing)
+{{< fa paper-plane >}} Syllabus: [Spring 2024](https://docs.google.com/document/d/19ljdUvLlH-8yNGZ6Uw1rrkBe8FlSLNCRfIIwTtHjCUg/edit?usp=sharing)
 
-{{< fa sitemap >}} Course website: [Spring 2023](https://spring-2023.envs-193ds.com/)
+{{< fa sitemap >}} Course website: [Spring 2024](https://spring-2024.envs-193ds.com/)
