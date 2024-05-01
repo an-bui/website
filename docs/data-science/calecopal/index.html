@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,18 +41,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,8 +67,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -73,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">An Bui</span>
     </a>
@@ -88,42 +96,42 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../data-science.html" rel="" target="">
- <span class="menu-text">Data Science</span></a>
+    <a class="nav-link" href="../../data-science.html"> 
+<span class="menu-text">Data Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../fieldwork.html" rel="" target="">
- <span class="menu-text">Fieldwork</span></a>
+    <a class="nav-link" href="../../fieldwork.html"> 
+<span class="menu-text">Fieldwork</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../CV/Bui-An_CV.pdf" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../../CV/Bui-An_CV.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://an-bui.github.io/shop/" rel="" target="">
- <span class="menu-text">Prints</span></a>
+    <a class="nav-link" href="https://an-bui.github.io/shop/"> 
+<span class="menu-text">Prints</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/an-bui" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/an-bui"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -161,9 +169,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fa-brands-github-install-the-package" id="toc-fa-brands-github-install-the-package" class="nav-link active" data-scroll-target="#fa-brands-github-install-the-package"><i class="fa-brands fa-github" aria-label="github"></i> Install the package!</a></li>
-  <li><a href="#fa-palette-description" id="toc-fa-palette-description" class="nav-link" data-scroll-target="#fa-palette-description"><i class="fa-solid fa-palette" aria-label="palette"></i> Description</a></li>
-  <li><a href="#fa-book-pronunciation" id="toc-fa-book-pronunciation" class="nav-link" data-scroll-target="#fa-book-pronunciation"><i class="fa-solid fa-book" aria-label="book"></i> Pronunciation</a></li>
+  <li><a href="#install-the-package" id="toc-install-the-package" class="nav-link active" data-scroll-target="#install-the-package"><i class="fa-brands fa-github" aria-label="github"></i> Install the package!</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description"><i class="fa-solid fa-palette" aria-label="palette"></i> Description</a></li>
+  <li><a href="#pronunciation" id="toc-pronunciation" class="nav-link" data-scroll-target="#pronunciation"><i class="fa-solid fa-book" aria-label="book"></i> Pronunciation</a></li>
   </ul>
 </nav>
     </div>
@@ -173,22 +181,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="hex-sticker.png" class="nolightbox img-fluid figure-img" alt="Hexagonal sticker with calecopal in black text at the top. The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn." width="200"></p>
-<figcaption class="figure-caption"><code>calecopal</code> hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn.</figcaption>
+<p><img src="hex-sticker.png" class="nolightbox img-fluid figure-img" width="200"></p>
+<figcaption><code>calecopal</code> hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn.</figcaption>
 </figure>
 </div>
-<section id="fa-brands-github-install-the-package" class="level2">
-<h2 class="anchored" data-anchor-id="fa-brands-github-install-the-package"><i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/an-bui/calecopal">Install the package!</a></h2>
+<section id="install-the-package" class="level2">
+<h2 class="anchored" data-anchor-id="install-the-package"><i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/an-bui/calecopal">Install the package!</a></h2>
 </section>
-<section id="fa-palette-description" class="level2">
-<h2 class="anchored" data-anchor-id="fa-palette-description"><i class="fa-solid fa-palette" aria-label="palette"></i> Description</h2>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description"><i class="fa-solid fa-palette" aria-label="palette"></i> Description</h2>
 <p>This is a collection of 45 color palettes, all inspired by California ecosystems. This was built with <a href="https://www.heililowman.com/">Heili Lowman</a>, <a href="https://www.anasofiaguerra.com/">Ana Sofia Guerra</a>, and <a href="https://anamtk.weebly.com/">Ana Miller-ter Kuile</a>. The code was taken directly from Karthik Ram’s <code>wesanderson</code> package.</p>
 <p>Some of my favorites include <code>calochortus</code> (after my favorite wildflower):</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="lightbox" title="calochortus, after Calochortus catalinae" data-description="An
+<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-description="An
 
 example
 
@@ -272,14 +281,14 @@ big
 
 white
 
-petals." data-gallery="quarto-lightbox-gallery-1"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="img-fluid figure-img" alt="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." width="500"></a></p>
-<figcaption class="figure-caption"><code>calochortus</code>, after <em>Calochortus catalinae</em></figcaption>
+petals." data-gallery="quarto-lightbox-gallery-1" title="calochortus, after Calochortus catalinae"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="img-fluid figure-img" alt="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." width="500"></a></p>
+<figcaption><code>calochortus</code>, after <em>Calochortus catalinae</em></figcaption>
 </figure>
 </div>
 <p>And <code>bigsur</code> (which is on the hex sticker!)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="lightbox" title="bigsur,with its inspiration" data-description="An
+<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-description="An
 
 example
 
@@ -331,16 +340,20 @@ inspired
 
 the
 
-palette." data-gallery="quarto-lightbox-gallery-2"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="img-fluid figure-img" alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."></a></p>
-<figcaption class="figure-caption"><code>bigsur</code>,with its inspiration</figcaption>
+palette." data-gallery="quarto-lightbox-gallery-2" title="bigsur,with its inspiration"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="img-fluid figure-img" alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."></a></p>
+<figcaption><code>bigsur</code>,with its inspiration</figcaption>
 </figure>
 </div>
 </section>
-<section id="fa-book-pronunciation" class="level1">
+<section id="pronunciation" class="level1">
 <h1><i class="fa-solid fa-book" aria-label="book"></i> Pronunciation</h1>
 <p>“calecopal” stands for <strong>Cal</strong>ifornia <strong>eco</strong>system <strong>pal</strong>ettes. I usually say it “cal-ee-ko-pal”.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1"><code>calochortus</code>, after <em>Calochortus catalinae</em></span>
+<span class="glightbox-desc lightbox-desc-2"><code>bigsur</code>,with its inspiration</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -423,10 +436,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -436,8 +466,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -449,7 +488,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -493,6 +655,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -518,6 +681,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -578,7 +767,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":true,"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
 
 
 
