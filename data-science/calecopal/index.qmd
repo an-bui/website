@@ -25,6 +25,12 @@ And `bigsur` (which is on the hex sticker!)
 
 ![`bigsur`,with its inspiration](https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png){description="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette." fig-alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."}
 
+# `calecopal` is also in `paletteer`!
+
+Emil Hvitfeldt made this incredible collection of all the packages in `paletteer` - very honored to have `calecopal` in there too! Here's [the listing](https://emilhvitfeldt.github.io/r-color-palettes/discrete.html#category=Package%20-%20calecopal&listing-listing-page=1) for `figmtn`:  
+
+![`figmtn` in `paletteer`](/data-science/calecopal/calecopal_paletteer.png){description="A screenshot of Emil Hvitfeldt's r-color-palettes app with the listing for the `figmtn` palette in `calecopal`. The top includes code to use the palette in `paletteer`, and 6 different example figures using the palette."}
+
 # {{< fa book >}} Pronunciation
 
 "calecopal" stands for **Cal**ifornia **eco**system **pal**ettes. I usually say it "cal-ee-ko-pal".
