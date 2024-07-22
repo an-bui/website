@@ -1,5 +1,5 @@
 ---
-title: "Basics of R - California Ecology and Conservation"
+title: "Basics of R"
 image: /images/pond-data-fig.png
 description: A tutorial on how to use R for data wrangling, analysis, and visualization
 categories: [workshops]

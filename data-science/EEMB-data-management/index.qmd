@@ -1,0 +1,47 @@
+---
+title: "Data Management for Ecologists"
+image: workflow.jpg
+description: The inaugural EEMB data management workshop!
+categories: [workshops, data management]
+editor: source
+---
+
+![Artwork by [Allison Horst](https://twitter.com/allison_horst)](workflow.jpg){description="Cute fuzzy monsters putting rectangular data tables onto a conveyor belt. Along the conveyor belt line are different automated “stations” that update the data, reading “WRANGLE”, “VISUALIZE”, and “MODEL”. A monster at the end of the conveyor belt is carrying away a table that reads “Complete analysis.”" fig-alt="Cute fuzzy monsters putting rectangular data tables onto a conveyor belt. Along the conveyor belt line are different automated “stations” that update the data, reading “WRANGLE”, “VISUALIZE”, and “MODEL”. A monster at the end of the conveyor belt is carrying away a table that reads “Complete analysis.”"}
+
+## {{< fa file >}} Description
+
+I share an office with [Piper Lovegreen](https://anderegglab.eemb.ucsb.edu/people/graduate-students/piper-lovegreen), grad student in the [Landscape Ecophysiology And Function (LEAF) lab](https://anderegglab.eemb.ucsb.edu/). We got to chatting about data management prior to Piper's summer field season - she's collecting a _lot_ of data.  
+
+We thought that it could be useful for grad students about to embark on a field season to have a sense of how they would manage their data before heading out to collect it. We polled grads in the department on what they were most interested in learning about, and focused our workshop on the following topics given survey responses:  
+
+1. Data processing  
+2. Data storage  
+3. Data reproducibility  
+4. Data redundancy  
+5. Field data collection  
+
+We designed a 2 hour workshop for grads to think through their data management plans, and invited our peers to contribute their wisdom. **At the end of the workshop, participants had a plan for collecting, organizing, and processing their data.** We're hoping to make this an annual event, and the dream would be to integrate this material into the intro series for graduate students in EEMB.
+
+## {{< fa link >}} Links
+
+{{< fa hill-rockslide >}} [Workshop slides](https://docs.google.com/presentation/d/1NayKP6EEfAmzpbNqxrOUjwpmJ6NmdHCximuJ20KVt0s/edit?usp=sharing)  
+
+{{< fa sitemap >}} [Code resource](https://an-bui.github.io/eemb-data-management-workshop/) (my first time making a book with Quarto!)    
+
+{{< fa map >}} [Data management planning template](https://docs.google.com/document/d/1DN83ahmFJ11eWEZgK9iJfiPWiTIzkTXLtT1uN_nB27M/edit?usp=sharing) 
+
+## {{< fa circle-info >}} More resources
+
+- Cooper, N. and Hsing, P-Y eds. [British Ecological Society Reproducible Code guide](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf)  
+
+- Ivimey‐Cook, E. R. et al. (2023). Implementing code review in the scientific workflow: Insights from ecology and evolutionary biology. _Journal of Evolutionary Biology_, Volume 36, Issue 10, 1347–1356. [https://doi.org/10.1111/jeb.14230](https://doi.org/10.1111/jeb.14230) 
+
+- Jenkins, G. B. et al. (2023). Reproducibility in ecology and evolution: Minimum standards for data and code. _Ecology and Evolution_, 13, e9961. [https://doi.org/10.1002/ece3.9961](https://doi.org/10.1002/ece3.9961)  
+
+- Vriend, S. et al. (2024). [SORTEE 17-Step checklist for reproducible code](https://osf.io/kncw6/wiki/home/)   (part of a larger workshop on code review)  
+
+
+
+
+
+

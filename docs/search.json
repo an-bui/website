@@ -70,53 +70,67 @@
     "text": "Education\n\n\n MA in Ecology, Evolution & Marine Biology, 2020\n\n\nUniversity of California, Santa Barbara\n\n\n BS in Ecology, Evolution, and Marine Biology, 2015\n\n\nUniversity of California, Santa Barbara\n\n\n\n BA in English, 2015\n\n\nUniversity of California, Santa Barbara"
   },
   {
-    "objectID": "data-science/CEC-R-tutorial/index.html",
-    "href": "data-science/CEC-R-tutorial/index.html",
-    "title": "Basics of R - California Ecology and Conservation",
+    "objectID": "data-science/intro-to-tidyverse/index.html",
+    "href": "data-science/intro-to-tidyverse/index.html",
+    "title": "Intro to the {tidyverse}",
     "section": "",
-    "text": "An example scatter plot with model predictions and confidence interval ribbon."
+    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
   },
   {
-    "objectID": "data-science/CEC-R-tutorial/index.html#description",
-    "href": "data-science/CEC-R-tutorial/index.html#description",
-    "title": "Basics of R - California Ecology and Conservation",
-    "section": " Description",
-    "text": "Description\nThis was a workshop on using R for data cleaning, wrangling, preliminary analysis, and visualization all based on mostly {tidyverse} with some bonus model predictions from {ggeffects}. I designed it for the California Ecology and Conservation course in Fall 2023, which I was lucky enough to support as a TA."
-  },
-  {
-    "objectID": "data-science/CEC-R-tutorial/index.html#links",
-    "href": "data-science/CEC-R-tutorial/index.html#links",
-    "title": "Basics of R - California Ecology and Conservation",
-    "section": " Links",
-    "text": "Links\n GitHub repository\n learnr tutorial\n RPubs"
-  },
-  {
-    "objectID": "data-science/functions/index.html",
-    "href": "data-science/functions/index.html",
-    "title": "Putting the FUN in functions",
+    "objectID": "data-science/intro-to-tidyverse/index.html#description",
+    "href": "data-science/intro-to-tidyverse/index.html#description",
+    "title": "Intro to the {tidyverse}",
     "section": "",
-    "text": "Banner image for the workshop, which I drew!"
+    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
   },
   {
-    "objectID": "data-science/functions/index.html#description",
-    "href": "data-science/functions/index.html#description",
-    "title": "Putting the FUN in functions",
-    "section": " Description",
-    "text": "Description\nThis is a workshop on writing functions in R, with editing from Sam Csik and Juliette Verstaen. I also made a few illustrations for the event!"
-  },
-  {
-    "objectID": "data-science/functions/index.html#illustrations",
-    "href": "data-science/functions/index.html#illustrations",
-    "title": "Putting the FUN in functions",
-    "section": " Illustrations",
-    "text": "Illustrations\n\n\n\nBasic function structure as explained by Saturn.\n\n\n\n\n\nJupiter explains what goes into a function: the function, the arguments, and the output."
-  },
-  {
-    "objectID": "data-science/functions/index.html#links",
-    "href": "data-science/functions/index.html#links",
-    "title": "Putting the FUN in functions",
+    "objectID": "data-science/intro-to-tidyverse/index.html#links",
+    "href": "data-science/intro-to-tidyverse/index.html#links",
+    "title": "Intro to the {tidyverse}",
     "section": " Links",
-    "text": "Links\n Github repository\n learnr tutorial\n RPubs\n\n\n\nBanner image for the workshop, which I drew!\nBasic function structure as explained by Saturn.\nJupiter explains what goes into a function: the function, the arguments, and the output."
+    "text": "Links\n GitHub repository\n RPubs document\n\n\n\nSam and me, after a successful workshop!"
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html",
+    "href": "data-science/fungal-community-data/index.html",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": "",
+    "text": "Tejon Ranch Conservancy, California."
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html#fungal-community-data",
+    "href": "data-science/fungal-community-data/index.html#fungal-community-data",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": " Fungal community data",
+    "text": "Fungal community data\nData and analysis to accompany Bui et al., “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193."
+  },
+  {
+    "objectID": "data-science/fungal-community-data/index.html#links",
+    "href": "data-science/fungal-community-data/index.html#links",
+    "title": "Bui et al. 2020 data and analysis",
+    "section": " Links",
+    "text": "Links\n Zenodo entry\n GitHub repository"
+  },
+  {
+    "objectID": "data-science/calecopal/index.html",
+    "href": "data-science/calecopal/index.html",
+    "title": "{calecopal}",
+    "section": "",
+    "text": "calecopal hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn."
+  },
+  {
+    "objectID": "data-science/calecopal/index.html#install-the-package",
+    "href": "data-science/calecopal/index.html#install-the-package",
+    "title": "{calecopal}",
+    "section": " Install the package!",
+    "text": "Install the package!"
+  },
+  {
+    "objectID": "data-science/calecopal/index.html#description",
+    "href": "data-science/calecopal/index.html#description",
+    "title": "{calecopal}",
+    "section": " Description",
+    "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\ncalochortus, after Calochortus catalinae\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nbigsur,with its inspiration"
   },
   {
     "objectID": "data-science/community-analysis-vegan/index.html",
@@ -165,7 +179,7 @@
     "href": "data-science.html",
     "title": "Data Science",
     "section": "",
-    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of R - California Ecology and Conservation\n\n\n\nworkshops\n\n\n\nA tutorial on how to use R for data wrangling, analysis, and visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Management for Ecologists\n\n\n\nworkshops\n\n\ndata management\n\n\n\nThe inaugural EEMB data management workshop!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of R\n\n\n\nworkshops\n\n\n\nA tutorial on how to use R for data wrangling, analysis, and visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples of effective data visualization\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nA tutorial on basic data visualization principles\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -280,67 +294,102 @@
     "text": "Links\n Workshop repo\n Workshop slides\n A very non-scientific report using the visualizations from the workshop"
   },
   {
-    "objectID": "data-science/calecopal/index.html",
-    "href": "data-science/calecopal/index.html",
-    "title": "{calecopal}",
+    "objectID": "data-science/EEMB-data-management/index.html",
+    "href": "data-science/EEMB-data-management/index.html",
+    "title": "Data Management for Ecologists",
     "section": "",
-    "text": "calecopal hex sticker, drawn by me! The graphic is split on the diagonal by hexagons colored using the bigsur palette. The top half has bars (implying data), and the bottom has the photo of Julia Pfeiffer State Park from which the colors were drawn."
+    "text": "Artwork by Allison Horst"
   },
   {
-    "objectID": "data-science/calecopal/index.html#install-the-package",
-    "href": "data-science/calecopal/index.html#install-the-package",
-    "title": "{calecopal}",
-    "section": " Install the package!",
-    "text": "Install the package!"
-  },
-  {
-    "objectID": "data-science/calecopal/index.html#description",
-    "href": "data-science/calecopal/index.html#description",
-    "title": "{calecopal}",
+    "objectID": "data-science/EEMB-data-management/index.html#description",
+    "href": "data-science/EEMB-data-management/index.html#description",
+    "title": "Data Management for Ecologists",
     "section": " Description",
-    "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\ncalochortus, after Calochortus catalinae\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nbigsur,with its inspiration"
+    "text": "Description\nI share an office with Piper Lovegreen, grad student in the Landscape Ecophysiology And Function (LEAF) lab. We got to chatting about data management prior to Piper’s summer field season - she’s collecting a lot of data.\nWe thought that it could be useful for grad students about to embark on a field season to have a sense of how they would manage their data before heading out to collect it. We polled grads in the department on what they were most interested in learning about, and focused our workshop on the following topics given survey responses:\n\nData processing\n\nData storage\n\nData reproducibility\n\nData redundancy\n\nField data collection\n\nWe designed a 2 hour workshop for grads to think through their data management plans, and invited our peers to contribute their wisdom. At the end of the workshop, participants had a plan for collecting, organizing, and processing their data. We’re hoping to make this an annual event, and the dream would be to integrate this material into the intro series for graduate students in EEMB."
   },
   {
-    "objectID": "data-science/fungal-community-data/index.html",
-    "href": "data-science/fungal-community-data/index.html",
-    "title": "Bui et al. 2020 data and analysis",
-    "section": "",
-    "text": "Tejon Ranch Conservancy, California."
-  },
-  {
-    "objectID": "data-science/fungal-community-data/index.html#fungal-community-data",
-    "href": "data-science/fungal-community-data/index.html#fungal-community-data",
-    "title": "Bui et al. 2020 data and analysis",
-    "section": " Fungal community data",
-    "text": "Fungal community data\nData and analysis to accompany Bui et al., “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. Published 22 September 2020. https://doi.org/10.1093/femsec/fiaa193."
-  },
-  {
-    "objectID": "data-science/fungal-community-data/index.html#links",
-    "href": "data-science/fungal-community-data/index.html#links",
-    "title": "Bui et al. 2020 data and analysis",
+    "objectID": "data-science/EEMB-data-management/index.html#links",
+    "href": "data-science/EEMB-data-management/index.html#links",
+    "title": "Data Management for Ecologists",
     "section": " Links",
-    "text": "Links\n Zenodo entry\n GitHub repository"
+    "text": "Links\n Workshop slides\n Code resource (my first time making a book with Quarto!)\n Data management planning template"
   },
   {
-    "objectID": "data-science/intro-to-tidyverse/index.html",
-    "href": "data-science/intro-to-tidyverse/index.html",
-    "title": "Intro to the {tidyverse}",
+    "objectID": "data-science/EEMB-data-management/index.html#more-resources",
+    "href": "data-science/EEMB-data-management/index.html#more-resources",
+    "title": "Data Management for Ecologists",
+    "section": " More resources",
+    "text": "More resources\n\nCooper, N. and Hsing, P-Y eds. British Ecological Society Reproducible Code guide\nIvimey‐Cook, E. R. et al. (2023). Implementing code review in the scientific workflow: Insights from ecology and evolutionary biology. Journal of Evolutionary Biology, Volume 36, Issue 10, 1347–1356. https://doi.org/10.1111/jeb.14230\nJenkins, G. B. et al. (2023). Reproducibility in ecology and evolution: Minimum standards for data and code. Ecology and Evolution, 13, e9961. https://doi.org/10.1002/ece3.9961\nVriend, S. et al. (2024). SORTEE 17-Step checklist for reproducible code (part of a larger workshop on code review)\n\n\n\n\nArtwork by Allison Horst"
+  },
+  {
+    "objectID": "data-science/functions/index.html",
+    "href": "data-science/functions/index.html",
+    "title": "Putting the FUN in functions",
     "section": "",
-    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
+    "text": "Banner image for the workshop, which I drew!"
   },
   {
-    "objectID": "data-science/intro-to-tidyverse/index.html#description",
-    "href": "data-science/intro-to-tidyverse/index.html#description",
-    "title": "Intro to the {tidyverse}",
-    "section": "",
-    "text": "or, general musings\nIn 2018, I found myself in the situation that many grad students do: I had a bunch of data, but I didn’t know the first thing about how to analyze it. Also, I knew that people were using this thing called R but I installed it on my computer and opened it up, but nothing was working?? (I didn’t know what the RStudio IDE was, unfortunately).\nSam Csik and I were in the same boat, so we both elbowed our way into Allison Horst’s stats class in the Bren School for Environmental Management. Flash forward to Spring 2019: we started attending R-Ladies Santa Barbara meetups (at that point run by its founders, Allison, Jamie Montgomery, and Julie Stewart-Lowndes). They asked for ideas for workshops - especially anyone who’d want to lead a workshop - and emphasized that you didn’t have to be an expert in a field to do a workshop; sometimes the best way to learn a tool is to teach about it!\nSam and I thought we could lead a workshop on wrangling data using {tidyverse} packages, so we volunteered. I remember being pretty nervous going in (how was I, a mere amateur going to teach people how to code?). But it went great!\n\n\n\nSam and me, after a successful workshop!\n\n\nAnd flash forward to 2023: Sam and I, along with Camila Vargas Poulsen and Danielle Ferraro, are co-organizers of R-Ladies Santa Barbara. Sam is the Data Training Coordinator for the Masters of Environmental Data Science program at Bren, and I am still messing around in R - but at least I know what RStudio is now!"
+    "objectID": "data-science/functions/index.html#description",
+    "href": "data-science/functions/index.html#description",
+    "title": "Putting the FUN in functions",
+    "section": " Description",
+    "text": "Description\nThis is a workshop on writing functions in R, with editing from Sam Csik and Juliette Verstaen. I also made a few illustrations for the event!"
   },
   {
-    "objectID": "data-science/intro-to-tidyverse/index.html#links",
-    "href": "data-science/intro-to-tidyverse/index.html#links",
-    "title": "Intro to the {tidyverse}",
+    "objectID": "data-science/functions/index.html#illustrations",
+    "href": "data-science/functions/index.html#illustrations",
+    "title": "Putting the FUN in functions",
+    "section": " Illustrations",
+    "text": "Illustrations\n\n\n\nBasic function structure as explained by Saturn.\n\n\n\n\n\nJupiter explains what goes into a function: the function, the arguments, and the output."
+  },
+  {
+    "objectID": "data-science/functions/index.html#links",
+    "href": "data-science/functions/index.html#links",
+    "title": "Putting the FUN in functions",
     "section": " Links",
-    "text": "Links\n GitHub repository\n RPubs document\n\n\n\nSam and me, after a successful workshop!"
+    "text": "Links\n Github repository\n learnr tutorial\n RPubs\n\n\n\nBanner image for the workshop, which I drew!\nBasic function structure as explained by Saturn.\nJupiter explains what goes into a function: the function, the arguments, and the output."
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html",
+    "href": "data-science/CEC-R-tutorial/index.html",
+    "title": "Basics of R",
+    "section": "",
+    "text": "An example scatter plot with model predictions and confidence interval ribbon."
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html#description",
+    "href": "data-science/CEC-R-tutorial/index.html#description",
+    "title": "Basics of R",
+    "section": " Description",
+    "text": "Description\nThis was a workshop on using R for data cleaning, wrangling, preliminary analysis, and visualization all based on mostly {tidyverse} with some bonus model predictions from {ggeffects}. I designed it for the California Ecology and Conservation course in Fall 2023, which I was lucky enough to support as a TA."
+  },
+  {
+    "objectID": "data-science/CEC-R-tutorial/index.html#links",
+    "href": "data-science/CEC-R-tutorial/index.html#links",
+    "title": "Basics of R",
+    "section": " Links",
+    "text": "Links\n GitHub repository\n learnr tutorial\n RPubs"
+  },
+  {
+    "objectID": "data-science/effective-data-visualization/index.html",
+    "href": "data-science/effective-data-visualization/index.html",
+    "title": "Principles of effective data visualization",
+    "section": "",
+    "text": "Warming Stripes, by Ed Hawkins. Source"
+  },
+  {
+    "objectID": "data-science/effective-data-visualization/index.html#description",
+    "href": "data-science/effective-data-visualization/index.html#description",
+    "title": "Principles of effective data visualization",
+    "section": " Description",
+    "text": "Description\nWhen I supported California Ecology and Conservation in Summer 2024, I had students vote on a workshop they wanted me to provide. They chose to learn about data visualization, so I collated lecture materials from my Statistics for Environmental Studies class, which was in large part from Sam Csik’s lectures and Allison Horst’s workshops.\nData visualization is something I think about all the time, and I was excited to share my ramblings. This workshop was ~ 1 hour 15 minutes, but I’d love to build it out more into a series of workshops with more activities!"
+  },
+  {
+    "objectID": "data-science/effective-data-visualization/index.html#links",
+    "href": "data-science/effective-data-visualization/index.html#links",
+    "title": "Principles of effective data visualization",
+    "section": " Links",
+    "text": "Links\n Workshop slides\n\n\n\nWarming Stripes, by Ed Hawkins. Source"
   },
   {
     "objectID": "publications.html",

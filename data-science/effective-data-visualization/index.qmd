@@ -1,0 +1,23 @@
+---
+title: "Principles of effective data visualization"
+image: warming-stripes.png
+description: A tutorial on basic data visualization principles
+categories: [workshops, data visualization]
+editor: source
+---
+
+![Warming Stripes, by Ed Hawkins. [Source](https://showyourstripes.info/s/globe)](warming-stripes.png){description="Ed Hawkins's visualization of global temperature change in degrees Celsius relative to average temperatures from 1961 - 2010." fig-alt="An image where many stripes colored blue to red are arranged in chronological order from left to right. As time moves on to the right, the stripes turn red indicating higher temperatures relative to the average from 1961 - 2010."}
+
+## {{< fa file >}} Description
+
+When I supported [California Ecology and Conservation](https://ucnrs.org/teaching/cec/) in Summer 2024, I had students vote on a workshop they wanted me to provide. They chose to learn about data visualization, so I collated lecture materials from my [Statistics for Environmental Studies](https://envs-193ds.com/) class, which was in large part from [Sam Csik's lectures](https://samanthacsik.github.io/EDS-240-data-viz/) and [Allison Horst's workshops](https://docs.google.com/presentation/u/1/d/1EA_PfTiSXh8J0JH03d1pcA6luVJeN2oUGozxhZoiydQ/edit#slide=id.g7420956e08_0_369).  
+
+Data visualization is something I think about _all the time_, and I was excited to share my ramblings. This workshop was ~ 1 hour 15 minutes, but I'd love to build it out more into a series of workshops with more activities!
+
+## {{< fa link >}} Links
+
+{{< fa hill-rockslide >}} [Workshop slides](2024-06_data-visualization.pdf)
+
+
+
+
