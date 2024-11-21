@@ -18,5 +18,5 @@ To answer these questions, I work in unceded Barbareño Chumash land, or the San
 
 Preliminary data suggest that a few traits define much of the variation amongst individuals.
 
-![Principal coordinates analysis. Each point is an individual. ](research_trait-PCA.jpeg){width="700" description="Preliminary data suggest that individuals differ by functional traits, and that a few traits explain much of the variation amongst individuals." fig-alt="Principal coordinates analysis. Each point is an individual."}
+![Principal components analysis. Each point is an individual. ](research_trait-PCA.jpeg){width="700" description="Preliminary data suggest that individuals differ by functional traits, and that a few traits explain much of the variation amongst individuals." fig-alt="Principal components analysis. Each point is an individual."}
 

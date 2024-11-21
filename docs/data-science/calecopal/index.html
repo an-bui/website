@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Some of my favorites include <code>calochortus</code> (after my favorite wildflower):</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" data-description="An
+<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="lightbox" data-description="An
 
 example
 
@@ -282,14 +282,14 @@ big
 
 white
 
-petals." title="calochortus, after Calochortus catalinae"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="img-fluid figure-img" alt="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." width="500"></a></p>
+petals." data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="calochortus, after Calochortus catalinae"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/calochortus_pic.png" class="img-fluid figure-img" alt="An example of the `calochortus` palette in `calecopal`, which has 5 pink-brown colors, above the flower that inspired the palette, _Calochortus catalinae_, which has a dark brown fuzzy center with green triangles coming out of the middle, all surrounded by big white petals." width="500"></a></p>
 <figcaption><code>calochortus</code>, after <em>Calochortus catalinae</em></figcaption>
 </figure>
 </div>
 <p>And <code>bigsur</code> (which is on the hex sticker!)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" data-description="An
+<p><a href="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="lightbox" data-description="An
 
 example
 
@@ -341,7 +341,7 @@ inspired
 
 the
 
-palette." title="bigsur,with its inspiration"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="img-fluid figure-img" alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."></a></p>
+palette." data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="bigsur,with its inspiration"><img src="https://raw.githubusercontent.com/an-bui/calecopal/master/figures/bigsur_pal.png" class="img-fluid figure-img" alt="An example of the `bigsur` palette in `calecopal` on the right, with the photo looking out from Julia Pfeiffer State Park during sunset that inspired the palette."></a></p>
 <figcaption><code>bigsur</code>,with its inspiration</figcaption>
 </figure>
 </div>
@@ -351,7 +351,7 @@ palette." title="bigsur,with its inspiration"><img src="https://raw.githubuserco
 <p>Emil Hvitfeldt made this incredible collection of all the packages in <code>paletteer</code> - very honored to have <code>calecopal</code> in there too! Here’s <a href="https://emilhvitfeldt.github.io/r-color-palettes/discrete.html#category=Package%20-%20calecopal&amp;listing-listing-page=1">the listing</a> for <code>figmtn</code>:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../data-science/calecopal/calecopal_paletteer.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" data-description="A
+<p><a href="../../data-science/calecopal/calecopal_paletteer.png" class="lightbox" data-description="A
 
 screenshot
 
@@ -419,7 +419,7 @@ using
 
 the
 
-palette." title="figmtn in paletteer"><img src="../../data-science/calecopal/calecopal_paletteer.png" class="img-fluid figure-img" alt="figmtn in paletteer"></a></p>
+palette." data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="figmtn in paletteer"><img src="../../data-science/calecopal/calecopal_paletteer.png" class="img-fluid figure-img" alt="figmtn in paletteer"></a></p>
 <figcaption><code>figmtn</code> in <code>paletteer</code></figcaption>
 </figure>
 </div>
@@ -847,7 +847,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
