@@ -16,7 +16,7 @@ To answer these questions, I work in unceded Barbareño Chumash land, or the San
 
 ![Some samples I have collected.](research_traits-samples.png){width="700" description="Sample scans. From left to right: _Desmarestia ligulata,_ _Stephanocystis osmundacea,_ _Rhodymenia_ sp., _Pterygophora californica._" fig-alt="A row of four scanned macroalgal samples. There is a ruler to the right of each scan. There is a tag in the upper left corner of each scan to identify the sample."}
 
-Preliminary data suggest that traits related to vertical space use and light competition (e.g. total individual dry mass, maximum height, frond length, photosynthetic efficiency) define one principal component or axis along which species can be differentiated, while traits related to resource use (e.g. thallus dry matter content, thallus surface area to volume ratio) define another principal component.
+Preliminary data suggest that a few traits define much of the variation amongst individuals.
 
-![Principal components analysis. Each point is an individual. Points are colored by species. Shapes represent sites.](research_trait-PCA.jpg){width="700" description="Preliminary data suggest that species differ by functional traits." fig-alt="Principal components analysis. Each point is an individual. Points are colored by species. Shapes represent sites."}
+![Principal coordinates analysis. Each point is an individual. ](research_trait-PCA.jpeg){width="700" description="Preliminary data suggest that individuals differ by functional traits, and that a few traits explain much of the variation amongst individuals." fig-alt="Principal coordinates analysis. Each point is an individual."}
 
