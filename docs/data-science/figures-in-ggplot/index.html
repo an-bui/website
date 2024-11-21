@@ -250,7 +250,7 @@ is
 
 a
 
-histogram." data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The ugliest plot!"><img src="crab_plot_and_hist_2023-02-28.jpg" class="img-fluid figure-img" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram."></a></p>
+histogram." data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="The ugliest plot!"><img src="crab_plot_and_hist_2023-02-28.jpg" class="img-fluid figure-img" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram."></a></p>
 <figcaption>The ugliest plot!</figcaption>
 </figure>
 </div>
@@ -678,7 +678,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

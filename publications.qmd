@@ -9,7 +9,7 @@ editor: source
 
 <ol reversed>
 
-<li> Joyce, FH, JA Rosales, KD Holl, RA Zahawi, **A Bui**, JL Reid. "Active restoration accelerates recovery of tropical forest bird assemblages over two decades." *Biological Conservation.* 2024. [PDF](paper-pdfs/joyce-2024.pdf)
+<li> Joyce, FH, JA Rosales, KD Holl, RA Zahawi, **A Bui**, JL Reid. "Active restoration accelerates recovery of tropical forest bird assemblages over two decades." *Biological Conservation.* 2024. [PDF](paper-pdfs/joyce-2024.pdf).</li>
 
 <li> Guerra, AS, **A Bui**, M Klope, DA Orr, SA Shaffer, HS Young. "Leaving more than footprints: anthropogenic nutrient subsidies to a protected area." *Ecosphere.* 2022. [PDF](paper-pdfs/guerra-2022.pdf)  
 {{< fa newspaper >}} **Media coverage**: [Los Angeles Times](https://www.latimes.com/environment/story/2019-10-22/seagulls-poop-changing-channel-islands-chemistry)</li>
@@ -39,9 +39,11 @@ editor: source
 
 Miller-ter Kuile, A, **A Bui**, A Apigo, S Lamm, M Swan, JS Sanderlin, K Ogle. “Accounting for
 imperfect detection to reveal the importance of current and past environmental conditions
-for long-term community stability.”\  
-Orr, D, Z Zilz, E Duge, S Copeland, **A Bui**, CI Motta, A Swei, HS Young. "Context-dependent effects of wildlife and cattle on tick survivorship".\
-Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Context-dependent effects of wildlife declines and livestock additions across a climatic gradient on tick abundance in southern California."
+for long-term community stability.”  
+
+Orr, D, Z Zilz, E Duge, S Copeland, **A Bui**, CI Motta, A Swei, HS Young. "Context-dependent effects of wildlife and cattle on tick survivorship".  
+
+Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Context-dependent effects of wildlife declines and livestock additions across a climatic gradient on tick abundance in southern California."  
 
 ## Code note
 
