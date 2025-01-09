@@ -9,6 +9,8 @@ editor: source
 
 <ol reversed>
 
+<li>Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Variable effects of wildlife and livestock on questing tick abundance across a topographical-climatic gradient." *Ecosphere.* 2024.</li>
+
 <li> Joyce, FH, JA Rosales, KD Holl, RA Zahawi, **A Bui**, JL Reid. "Active restoration accelerates recovery of tropical forest bird assemblages over two decades." *Biological Conservation.* 2024. [PDF](paper-pdfs/joyce-2024.pdf).</li>
 
 <li> Guerra, AS, **A Bui**, M Klope, DA Orr, SA Shaffer, HS Young. "Leaving more than footprints: anthropogenic nutrient subsidies to a protected area." *Ecosphere.* 2022. [PDF](paper-pdfs/guerra-2022.pdf)  
@@ -35,6 +37,10 @@ editor: source
 
 </ol>
 
+## Submitted
+
+**Bui, A**, MCN Castorani, BP DiFiore, L Kui, RJ Miller, J Clinton Nelson, DC Reed, AC Stier. "Foundation species recovery yields inconsistent recovery of associated community: a long-term experiment." [Authorea preprint](https://doi.org/10.22541/au.173639570.06246065/v1)  
+
 ## In review/revision
 
 Miller-ter Kuile, A, **A Bui**, A Apigo, S Lamm, M Swan, JS Sanderlin, K Ogle. “Accounting for
@@ -43,7 +49,6 @@ for long-term community stability.”
 
 Orr, D, Z Zilz, E Duge, S Copeland, **A Bui**, CI Motta, A Swei, HS Young. "Context-dependent effects of wildlife and cattle on tick survivorship".  
 
-Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Context-dependent effects of wildlife declines and livestock additions across a climatic gradient on tick abundance in southern California."  
 
 ## Code note
 

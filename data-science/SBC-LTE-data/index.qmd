@@ -1,0 +1,21 @@
+---
+title: "Foundation species and community change: data and analysis"
+image: sbc-lte-graphical-abstract.png
+description: Data and analysis to accompany submitted manuscript
+categories: [manuscripts, data]
+editor: source
+---
+
+![Graphical abstract](sbc-lte-graphical-abstract.png){description="Graphical abstract to accompany Bui et al., submitted manuscript. There is white text against a blue background depicting the ocean. Two giant kelp plants frame the image on the left and right. There are sessile invertebrates and understory macroalgae on the bottom of the image." fig-alt="Graphical abstract to accompany Bui et al., submitted manuscript. There is white text against a blue background depicting the ocean. Two giant kelp plants frame the image on the left and right. There are sessile invertebrates and understory macroalgae on the bottom of the image. The text reads: Foundation species recovery and community change. Foundation species shape ecosystems, and their loss and recovery have drastic effects on associated communities. However, these effects are challenging to understand without direct experimental manipulation. We studied the loss and recovery dynamics of giant kelp (Macrocystis pyrifera) forests to ask what happens when foundation species are lost and when they recover, and how much of their recovery influences the associated community (understory macroalgae and sessile invertebrates). Understory macroalgal biomass and sessile invertebrate biomass changed through time as expected when giant kelp was removed, and when it came back. Surprisingly, community composition shifted through time in both removal and reference conditions, suggesting that there were environmental drivers shaping community structure alongside giant kelp loss and recovery. By taking a long-term view of the ecosystem, we uncovered surprising community trajectories following foundation species loss and recovery. Long-term studies can reveal unexpected shifts in community structure, helping us see different scenarios for future change."}
+
+## {{< fa database >}} Santa Barbara Coastal LTER long-term removal experiment data and analysis
+
+Data and analysis to accompany Bui et al., "Foundation species recovery yields inconsistent recovery of associated community: a long-term experiment." [Authorea preprint](https://doi.org/10.22541/au.173639570.06246065/v1) 
+
+## {{< fa link >}} Links
+
+{{< fa diagram-project >}} [Zenodo entry](https://doi.org/10.5281/zenodo.14165444) 
+
+{{< fa brands github >}} [GitHub repository](https://github.com/an-bui/SBC-LTE/tree/v1.1)  
+
+

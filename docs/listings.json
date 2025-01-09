@@ -1,5 +1,22 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/01_EEMB-113L/index.html",
+      "/teaching/02_ENVS-193DS/index.html",
+      "/teaching/04_EEMB-179/index.html",
+      "/teaching/09_student-reviews/index.html",
+      "/teaching/03_EEMB-120/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/2020-09_soil-fungi/index.html",
+      "/research/2021-09_algae-traits/index.html"
+    ]
+  },
+  {
     "listing": "/data-science.html",
     "items": [
       "/data-science/code-notes/index.html",
@@ -12,24 +29,8 @@
       "/data-science/fungal-community-data/index.html",
       "/data-science/CEC-R-tutorial/index.html",
       "/data-science/intro-to-tidyverse/index.html",
+      "/data-science/SBC-LTE-data/index.html",
       "/data-science/effective-data-visualization/index.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/research/2020-09_soil-fungi/index.html",
-      "/research/2021-09_algae-traits/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/01_EEMB-113L/index.html",
-      "/teaching/02_ENVS-193DS/index.html",
-      "/teaching/04_EEMB-179/index.html",
-      "/teaching/09_student-reviews/index.html",
-      "/teaching/03_EEMB-120/index.html"
     ]
   }
 ]
