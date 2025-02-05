@@ -11,12 +11,13 @@ editor: source
 
 In winter 2025, I filed my CCUT, which was a reflection on my teaching experience and practices. I'm grateful for the opportunity to have been able to write about my teaching experience, and it was so lovely to revisit memories from highlights of my time teaching at UCSB for [Vertebrate Ecology and Evolution](https://an-bui.com/teaching/01_eemb-113l/), [California Ecology and Conservation](https://ucnrs.org/teaching/cec/), and [Statistics for Environmental Studies](https://an-bui.com/teaching/02_envs-193ds/).  
 
-The CCUT portfolio includes 4 parts:  
+My CCUT portfolio included 4 major parts:  
 1. The **teaching statement**: an outline of my approach to teaching   
 2. The **diversity statement**: my philosophy on incorporating equitable practices in the classroom  
 3. The **teaching narrative**: my reflection on my teaching experience in more specificity relating to classes I've taught, and engagement with student evaluations through the years (link below!)  
+4. The **evidence-based teaching project**: a teaching activity or experiment drawing on pedagogical theory  
 
-In addition to reflecting on my teaching practice and my approach to promoting diversity in the classroom, I also completed coursework and developed an evidence-based teaching project. In spring 2023, I took _Theory to Practice_ (GRAD 210) with Drs. Lisa Berry and Josh Kuntzman, which opened my mind up to pedagogical theory and how to apply it in the classroom. For this class and my CCUT portfolio, I examined close reading/annotation to promote "statistical skepticism" in the classroom for my project. This was a fun way to bring my history in the humanities to statistics, which I love to teach.  
+I developed my evidence-based teaching project in spring 2023 when I took _Theory to Practice_ (GRAD 210) with Drs. Lisa Berry and Josh Kuntzman. This class opened my mind up to pedagogical theory and how to apply it in the classroom and was very fun to take! For this class and my CCUT portfolio, I examined close reading/annotation to promote "statistical skepticism" in the classroom for my project. This was a fun way to bring my history in the humanities to statistics, which I love to teach.  
 
 ## {{< fa link >}} Links
 
