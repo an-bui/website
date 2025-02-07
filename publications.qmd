@@ -39,13 +39,13 @@ editor: source
 
 ## Submitted
 
-**Bui, A**, MCN Castorani, BP DiFiore, L Kui, RJ Miller, J Clinton Nelson, DC Reed, AC Stier. "Foundation species recovery yields inconsistent recovery of associated community: a long-term experiment." [Authorea preprint](https://doi.org/10.22541/au.173639570.06246065/v1)  
+Welch, ZS, SM Kim, M Liu, **A Bui**, J Grigolite, JL Jones, MD Iglesias-Rodríguez. “Brucite-Inspired Ocean Alkalinity Enhancement Alters the Biogeochemistry and Composition of a Santa Barbara Channel Phytoplankton Community.”  
 
 ## In review/revision
 
-Miller-ter Kuile, A, **A Bui**, A Apigo, S Lamm, M Swan, JS Sanderlin, K Ogle. “Accounting for
-imperfect detection to reveal the importance of current and past environmental conditions
-for long-term community stability.”  
+**Bui, A**, MCN Castorani, BP DiFiore, L Kui, RJ Miller, J Clinton Nelson, DC Reed, AC Stier. "Foundation species recovery yields inconsistent recovery of associated community: a long-term experiment." [Authorea preprint](https://doi.org/10.22541/au.173639570.06246065/v1)  
+
+Miller-ter Kuile, A, **A Bui**, A Apigo, S Lamm, M Swan, JS Sanderlin, K Ogle. “Accounting for imperfect detection to reveal the importance of current and past environmental conditions for long-term community stability.”  
 
 Orr, D, Z Zilz, E Duge, S Copeland, **A Bui**, CI Motta, A Swei, HS Young. "Context-dependent effects of wildlife and cattle on tick survivorship".  
 
