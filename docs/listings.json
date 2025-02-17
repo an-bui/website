@@ -1,19 +1,13 @@
 [
   {
-    "listing": "/data-science.html",
+    "listing": "/teaching.html",
     "items": [
-      "/data-science/code-notes/index.html",
-      "/data-science/figures-in-ggplot/index.html",
-      "/data-science/interactive-visualizations/index.html",
-      "/data-science/community-analysis-vegan/index.html",
-      "/data-science/EEMB-data-management/index.html",
-      "/data-science/calecopal/index.html",
-      "/data-science/functions/index.html",
-      "/data-science/fungal-community-data/index.html",
-      "/data-science/CEC-R-tutorial/index.html",
-      "/data-science/intro-to-tidyverse/index.html",
-      "/data-science/SBC-LTE-data/index.html",
-      "/data-science/effective-data-visualization/index.html"
+      "/teaching/01_EEMB-113L/index.html",
+      "/teaching/05_CCUT/index.html",
+      "/teaching/02_ENVS-193DS/index.html",
+      "/teaching/04_EEMB-179/index.html",
+      "/teaching/09_student-reviews/index.html",
+      "/teaching/03_EEMB-120/index.html"
     ]
   },
   {
@@ -24,14 +18,21 @@
     ]
   },
   {
-    "listing": "/teaching.html",
+    "listing": "/data-science.html",
     "items": [
-      "/teaching/01_EEMB-113L/index.html",
-      "/teaching/05_CCUT/index.html",
-      "/teaching/02_ENVS-193DS/index.html",
-      "/teaching/04_EEMB-179/index.html",
-      "/teaching/09_student-reviews/index.html",
-      "/teaching/03_EEMB-120/index.html"
+      "/data-science/code-notes/index.html",
+      "/data-science/figures-in-ggplot/index.html",
+      "/data-science/interactive-visualizations/index.html",
+      "/data-science/community-analysis-vegan/index.html",
+      "/data-science/SBC-LTER-data-workshop/index.html",
+      "/data-science/EEMB-data-management/index.html",
+      "/data-science/calecopal/index.html",
+      "/data-science/functions/index.html",
+      "/data-science/fungal-community-data/index.html",
+      "/data-science/CEC-R-tutorial/index.html",
+      "/data-science/intro-to-tidyverse/index.html",
+      "/data-science/SBC-LTE-data/index.html",
+      "/data-science/effective-data-visualization/index.html"
     ]
   }
 ]

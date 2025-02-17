@@ -168,81 +168,53 @@
     "text": "Description\nThis is a collection of 45 color palettes, all inspired by California ecosystems. This was built with Heili Lowman, Ana Sofia Guerra, and Ana Miller-ter Kuile. The code was taken directly from Karthik Ram’s wesanderson package.\nSome of my favorites include calochortus (after my favorite wildflower):\n\n\n\ncalochortus, after Calochortus catalinae\n\n\nAnd bigsur (which is on the hex sticker!)\n\n\n\nbigsur,with its inspiration"
   },
   {
-    "objectID": "data-science/community-analysis-vegan/index.html",
-    "href": "data-science/community-analysis-vegan/index.html",
-    "title": "Community analysis with {vegan}",
-    "section": "",
-    "text": "Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."
-  },
-  {
-    "objectID": "data-science/community-analysis-vegan/index.html#description",
-    "href": "data-science/community-analysis-vegan/index.html#description",
-    "title": "Community analysis with {vegan}",
+    "objectID": "data-science/SBC-LTER-data-workshop/index.html#description",
+    "href": "data-science/SBC-LTER-data-workshop/index.html#description",
+    "title": "SBC LTER data workshop",
     "section": " Description",
-    "text": "Description\nThis is a workshop on how to use basic community analysis functions in {vegan} to calculate species richness, conduct Principal Components Analysis, and create a non-metric multidimensional scaling plot. The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used bird community survey data from Adams and Matthews (2019)."
+    "text": "Description\nI work with the Santa Barbara Coastal LTER, and have the privilege of working often with Li Kui, the data manager for the SBC and the Mo’orea Coral Reef LTER. After one of Li’s workshops, we got to talking about common data cleaning steps that are useful across many of the LTER’s datasets. No matter what dataset you’re using, you will probably need to filter the observations to only include what it is you want, select variables you’re interested in (and leave the rest), and/or change the contents of a column to better fit your downstream work (e.g. change the values in a “date” column to be understood as dates, rather than character strings).\nLi, Kyle Emery (a post-doc with the SBC), and I put together a workshop on basic steps for understanding and preparing data using SBC LTER datasets. I wrote a section of the workshop for downloading, cleaning, and visualizing data. At the end of my section, participants have created a basic timeseries plot visualizing biomass of purple and red urchins at Naples Reef between 2014 and 2024."
   },
   {
-    "objectID": "data-science/community-analysis-vegan/index.html#links",
-    "href": "data-science/community-analysis-vegan/index.html#links",
-    "title": "Community analysis with {vegan}",
+    "objectID": "data-science/SBC-LTER-data-workshop/index.html#links",
+    "href": "data-science/SBC-LTER-data-workshop/index.html#links",
+    "title": "SBC LTER data workshop",
     "section": " Links",
-    "text": "Links\n GitHub repository\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup\n\n\n\nNon-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."
+    "text": "Links\n GitHub repository\n Rendered workshop document"
   },
   {
-    "objectID": "data-science/figures-in-ggplot/index.html",
-    "href": "data-science/figures-in-ggplot/index.html",
-    "title": "Figures in {ggplot2}",
+    "objectID": "data-science/interactive-visualizations/index.html",
+    "href": "data-science/interactive-visualizations/index.html",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
     "section": "",
-    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
+    "text": "An example of an interactive plot using plotly::ggplotly()!"
   },
   {
-    "objectID": "data-science/figures-in-ggplot/index.html#description",
-    "href": "data-science/figures-in-ggplot/index.html#description",
-    "title": "Figures in {ggplot2}",
-    "section": "",
-    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
+    "objectID": "data-science/interactive-visualizations/index.html#description",
+    "href": "data-science/interactive-visualizations/index.html#description",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "section": " Description",
+    "text": "Description\nMy data science bestie Sam Csik and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for dt, plotly, and leaflet to create tables, figures, and maps using a dataset on California spiny lobster (Panulirus interruptus) from the Santa Barbara Coastal LTER (LTER, Reed, and Miller (2022)).\nWe put together a very much non-scientific report with these visualizations to show how useful they could be when reporting data, demonstrating the power of these interactive visualizations when sharing data!"
   },
   {
-    "objectID": "data-science/figures-in-ggplot/index.html#links",
-    "href": "data-science/figures-in-ggplot/index.html#links",
-    "title": "Figures in {ggplot2}",
+    "objectID": "data-science/interactive-visualizations/index.html#links",
+    "href": "data-science/interactive-visualizations/index.html#links",
+    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
     "section": " Links",
-    "text": "Links\n Workshop repo\n Rendered code\n Blog summary, where you can find more of my musings about figure making\n\n\n\nThe ugliest plot!"
+    "text": "Links\n Workshop repo\n Workshop slides\n A very non-scientific report using the visualizations from the workshop"
   },
   {
-    "objectID": "data-science.html",
-    "href": "data-science.html",
-    "title": "Data Science",
+    "objectID": "data-science/code-notes/index.html",
+    "href": "data-science/code-notes/index.html",
+    "title": "Code notes",
     "section": "",
-    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Management for Ecologists\n\n\n\nworkshops\n\n\ndata management\n\n\n\nThe inaugural EEMB data management workshop!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of R\n\n\n\nworkshops\n\n\n\nA tutorial on how to use R for data wrangling, analysis, and visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFoundation species and community change: data and analysis\n\n\n\nmanuscripts\n\n\ndata\n\n\n\nData and analysis to accompany submitted manuscript\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples of effective data visualization\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nA tutorial on basic data visualization principles\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Artwork by Allison Horst. Two penguins take a selfie with the Quarto moon!"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Soil fungal community composition and function in a changing climate\n\n\nOver changing climatic conditions, fungal community composition may differ, but for some mutualist groups, their function could be retained.\n\n\n\n\n\n\nSep 22, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nMarine macroalgae functional traits\n\n\nFunctional traits can reveal life history strategies for algal species in the Santa Barbara Coastal Long Term Ecological Research Site.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/2021-09_algae-traits/index.html",
-    "href": "research/2021-09_algae-traits/index.html",
-    "title": "Marine macroalgae functional traits",
-    "section": "",
-    "text": "Cryptopleura ruprechtiana.\n\n\nFunctional traits provide a potentially useful way to identify patterns in nature. Functional traits are morphological, physiological, or behavioral characteristics that define species’ roles in ecosystems and responses to environments. Methods of describing species via their traits range from coarse (e.g. functional form or group) to fine (e.g. measuring leaf area), with increasing insight into the functional role of a species with increasing resolution. By defining ecological communities by their functions rather than taxonomic composition, we can make comparisons across communities independently of species identity, making generalization and identification of patterns possible. In this project, I ask what the primary traits defining macroalgal species differences are, and how they can explain patterns through time in changing community composition.\nTo answer these questions, I work in unceded Barbareño Chumash land, or the Santa Barbara Coastal Long-term Ecological Research site (SBC LTER). I hypothesized that the most meaningful traits differentiating species would be related to photosynthesis and competition for space, given that light and substrate are major determinants of benthic macroalgal community structure. I measured a suite of traits related to light capture, physical structure, and herbivore palatability for the most common species in the SBC LTER.\n\n\n\nSome samples I have collected.\n\n\nPreliminary data suggest that a few traits define much of the variation amongst individuals.\n\n\n\nPrincipal components analysis. Each point is an individual.\n\n\n\n\n\nCryptopleura ruprechtiana.\nSome samples I have collected.\nPrincipal components analysis. Each point is an individual."
-  },
-  {
-    "objectID": "research/2020-09_soil-fungi/index.html",
-    "href": "research/2020-09_soil-fungi/index.html",
-    "title": "Soil fungal community composition and function in a changing climate",
-    "section": "",
-    "text": "Tejon Ranch Conservancy, California\n\n\nA large part of ecosystem function in woodland systems depends on soil fungal communities. However, global climate change has the potential to fundamentally alter these communities as fungal species are filtered with changing environmental conditions. Therefore, a fundamental question is: Will fungal communities continue to provide the same functions under the stress of climate change?\nI had the privilege of being able to answer this question by working in unceded Kawaiisu territory, or the Tehachapi Mountains in south-central California with a collaborator, Dr. Devyn Orr. In this study, we examined the potential effects of climate on host-associated (i.e. tree-associated) soil fungal communities at climatically distinct sites, where more arid conditions represent likely regional climate futures. We found that soil fungal community composition changes strongly across sites, with species richness and diversity being highest at the most arid site.\n\n\n\nNMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites.\n\n\nHowever, host association may buffer the effects of climate on community composition, as host-associated fungal communities are more similar to each other across climatically distinct sites than the whole fungal community. Lastly, an examination of functional traits for ectomycorrhizal fungi, a well-studied guild of fungal mutualist species, showed that stress-tolerant traits were more abundant at arid sites than mesic sites, providing a mechanistic understanding of these community patterns. Taken together, our results indicate that fungal community composition will likely shift with future climate change but that host association may buffer these effects, with shifts in functional traits having implications for future ecosystem function.\n\nPublications\nBui, A, D Orr, M Lepori-Bui, K Konicek, HS Young, HV Moeller. “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. 2020.\n\n\n\nTejon Ranch Conservancy, California\nNMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Ecology is the basis of some of the most compelling stories about the world around us – the patterns of diversity that determine the structure of alpine forests to coastal tidepools are best described in ecological terms using observational, experimental, and theoretical methods. As an instructor in the department of Ecology, Evolution, and Marine Biology, I have three main teaching goals to teach these fundamental methods in ecology:\n\nfoster an inclusive environment for discussion and critical thinking,\n\nconnect observations to theory and current applications, and\n\nmake connections between coursework and future careers.\n\nPlease see each page for course details, or my CV for a complete list of courses.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcology and Evolution of Terrestrial Vertebrates Lab\n\n\nEEMB 113L  Head Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCertificate in College and University Teaching (CCUT)\n\n\nDeveloping a portfolio showcasing achievement in teaching\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics for Environmental Studies\n\n\nENVS 193DS  Instructor of Record\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcological Modelling\n\n\nEEMB 179/279  Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReviews\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Ecology\n\n\nEEMB 120  Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "data-science/code-notes/index.html#description",
+    "href": "data-science/code-notes/index.html#description",
+    "title": "Code notes",
+    "section": " Description",
+    "text": "Description\nI created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I’ve left a few “code notes” at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on Sam Csik’s Quarto resources, including “Creating your personal website using Quarto”, “Customizing Quarto Websites”, and “Adding a blog to your existing Quarto website”. The Github repo for this site is here. Happy Quarto-ing!"
   },
   {
     "objectID": "fieldwork.html",
@@ -294,39 +266,81 @@
     "text": "Code note\nThis gallery is made with the Lightbox extension. The code for this page is here. I was also struggling with file paths, so all my images are in the “images” folder in the directory (no subfolders)."
   },
   {
-    "objectID": "data-science/code-notes/index.html",
-    "href": "data-science/code-notes/index.html",
-    "title": "Code notes",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Artwork by Allison Horst. Two penguins take a selfie with the Quarto moon!"
+    "text": "Ecology is the basis of some of the most compelling stories about the world around us – the patterns of diversity that determine the structure of alpine forests to coastal tidepools are best described in ecological terms using observational, experimental, and theoretical methods. As an instructor in the department of Ecology, Evolution, and Marine Biology, I have three main teaching goals to teach these fundamental methods in ecology:\n\nfoster an inclusive environment for discussion and critical thinking,\n\nconnect observations to theory and current applications, and\n\nmake connections between coursework and future careers.\n\nPlease see each page for course details, or my CV for a complete list of courses.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcology and Evolution of Terrestrial Vertebrates Lab\n\n\nEEMB 113L  Head Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCertificate in College and University Teaching (CCUT)\n\n\nDeveloping a portfolio showcasing achievement in teaching\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics for Environmental Studies\n\n\nENVS 193DS  Instructor of Record\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcological Modelling\n\n\nEEMB 179/279  Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReviews\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Ecology\n\n\nEEMB 120  Teaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "data-science/code-notes/index.html#description",
-    "href": "data-science/code-notes/index.html#description",
-    "title": "Code notes",
-    "section": " Description",
-    "text": "Description\nI created this website in October 2022, when Quarto was (and still is) the cool, new tool for website building. I’ve left a few “code notes” at the bottom of various pages for anyone thinking of creating a website using Quarto wanting to see the underlying code. I drew heavily on Sam Csik’s Quarto resources, including “Creating your personal website using Quarto”, “Customizing Quarto Websites”, and “Adding a blog to your existing Quarto website”. The Github repo for this site is here. Happy Quarto-ing!"
-  },
-  {
-    "objectID": "data-science/interactive-visualizations/index.html",
-    "href": "data-science/interactive-visualizations/index.html",
-    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "objectID": "research/2020-09_soil-fungi/index.html",
+    "href": "research/2020-09_soil-fungi/index.html",
+    "title": "Soil fungal community composition and function in a changing climate",
     "section": "",
-    "text": "An example of an interactive plot using plotly::ggplotly()!"
+    "text": "Tejon Ranch Conservancy, California\n\n\nA large part of ecosystem function in woodland systems depends on soil fungal communities. However, global climate change has the potential to fundamentally alter these communities as fungal species are filtered with changing environmental conditions. Therefore, a fundamental question is: Will fungal communities continue to provide the same functions under the stress of climate change?\nI had the privilege of being able to answer this question by working in unceded Kawaiisu territory, or the Tehachapi Mountains in south-central California with a collaborator, Dr. Devyn Orr. In this study, we examined the potential effects of climate on host-associated (i.e. tree-associated) soil fungal communities at climatically distinct sites, where more arid conditions represent likely regional climate futures. We found that soil fungal community composition changes strongly across sites, with species richness and diversity being highest at the most arid site.\n\n\n\nNMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites.\n\n\nHowever, host association may buffer the effects of climate on community composition, as host-associated fungal communities are more similar to each other across climatically distinct sites than the whole fungal community. Lastly, an examination of functional traits for ectomycorrhizal fungi, a well-studied guild of fungal mutualist species, showed that stress-tolerant traits were more abundant at arid sites than mesic sites, providing a mechanistic understanding of these community patterns. Taken together, our results indicate that fungal community composition will likely shift with future climate change but that host association may buffer these effects, with shifts in functional traits having implications for future ecosystem function.\n\nPublications\nBui, A, D Orr, M Lepori-Bui, K Konicek, HS Young, HV Moeller. “Soil fungal community composition and functional similarity shift across distinct climatic conditions.” FEMS Microbiology Ecology. 2020.\n\n\n\nTejon Ranch Conservancy, California\nNMDS plot of soil fungal communities subset by degree of host association. White triangles represent arid sites, grey circles represent intermediate sites, black squares represent mesic sites."
   },
   {
-    "objectID": "data-science/interactive-visualizations/index.html#description",
-    "href": "data-science/interactive-visualizations/index.html#description",
-    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
-    "section": " Description",
-    "text": "Description\nMy data science bestie Sam Csik and I were invited to give a workshop for SORTEE on how to use JavaScript libraries to create interactive data visualizations. We went through uses for dt, plotly, and leaflet to create tables, figures, and maps using a dataset on California spiny lobster (Panulirus interruptus) from the Santa Barbara Coastal LTER (LTER, Reed, and Miller (2022)).\nWe put together a very much non-scientific report with these visualizations to show how useful they could be when reporting data, demonstrating the power of these interactive visualizations when sharing data!"
+    "objectID": "research/2021-09_algae-traits/index.html",
+    "href": "research/2021-09_algae-traits/index.html",
+    "title": "Marine macroalgae functional traits",
+    "section": "",
+    "text": "Cryptopleura ruprechtiana.\n\n\nFunctional traits provide a potentially useful way to identify patterns in nature. Functional traits are morphological, physiological, or behavioral characteristics that define species’ roles in ecosystems and responses to environments. Methods of describing species via their traits range from coarse (e.g. functional form or group) to fine (e.g. measuring leaf area), with increasing insight into the functional role of a species with increasing resolution. By defining ecological communities by their functions rather than taxonomic composition, we can make comparisons across communities independently of species identity, making generalization and identification of patterns possible. In this project, I ask what the primary traits defining macroalgal species differences are, and how they can explain patterns through time in changing community composition.\nTo answer these questions, I work in unceded Barbareño Chumash land, or the Santa Barbara Coastal Long-term Ecological Research site (SBC LTER). I hypothesized that the most meaningful traits differentiating species would be related to photosynthesis and competition for space, given that light and substrate are major determinants of benthic macroalgal community structure. I measured a suite of traits related to light capture, physical structure, and herbivore palatability for the most common species in the SBC LTER.\n\n\n\nSome samples I have collected.\n\n\nPreliminary data suggest that a few traits define much of the variation amongst individuals.\n\n\n\nPrincipal components analysis. Each point is an individual.\n\n\n\n\n\nCryptopleura ruprechtiana.\nSome samples I have collected.\nPrincipal components analysis. Each point is an individual."
   },
   {
-    "objectID": "data-science/interactive-visualizations/index.html#links",
-    "href": "data-science/interactive-visualizations/index.html#links",
-    "title": "Integrating JavaScript libraries into R for Dynamic Visualizations",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Soil fungal community composition and function in a changing climate\n\n\nOver changing climatic conditions, fungal community composition may differ, but for some mutualist groups, their function could be retained.\n\n\n\n\n\n\nSep 22, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nMarine macroalgae functional traits\n\n\nFunctional traits can reveal life history strategies for algal species in the Santa Barbara Coastal Long Term Ecological Research Site.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "data-science.html",
+    "href": "data-science.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "This is a collection of some of my favorite workshops, talks, packages, and more! Please see my CV for a complete list.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode notes\n\n\n\nquarto\n\n\nwebsites\n\n\n\nhow I made this website!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigures in {ggplot2}\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop for UCSB EEMB R Seminar, Winter 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating JavaScript libraries into R for Dynamic Visualizations\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nworkshop with Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity analysis with {vegan}\n\n\n\nworkshops\n\n\nvegan\n\n\n\na workshop on multivariate analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSBC LTER data workshop\n\n\n\nworkshops\n\n\n\nDownloading and visually exploring datasets\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Management for Ecologists\n\n\n\nworkshops\n\n\ndata management\n\n\n\nThe inaugural EEMB data management workshop!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{calecopal}\n\n\n\npackages\n\n\ncolor palettes\n\n\n\na California-inspired Package of Color Palettes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPutting the FUN in functions\n\n\n\nworkshops\n\n\nfunctions\n\n\nlearnr\n\n\n\na workshop for R-Ladies Santa Barbara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBui et al. 2020 data and analysis\n\n\n\npublications\n\n\ndata\n\n\n\nData and analysis to accompany Bui et al. 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of R\n\n\n\nworkshops\n\n\n\nA tutorial on how to use R for data wrangling, analysis, and visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to the {tidyverse}\n\n\n\nworkshops\n\n\n\nthe one that started it all\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFoundation species and community change: data and analysis\n\n\n\nmanuscripts\n\n\ndata\n\n\n\nData and analysis to accompany submitted manuscript\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples of effective data visualization\n\n\n\nworkshops\n\n\ndata visualization\n\n\n\nA tutorial on basic data visualization principles\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "data-science/figures-in-ggplot/index.html",
+    "href": "data-science/figures-in-ggplot/index.html",
+    "title": "Figures in {ggplot2}",
+    "section": "",
+    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
+  },
+  {
+    "objectID": "data-science/figures-in-ggplot/index.html#description",
+    "href": "data-science/figures-in-ggplot/index.html#description",
+    "title": "Figures in {ggplot2}",
+    "section": "",
+    "text": "I gave a workshop on figure customization using ggplot and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from lterdatasampler. I strongly believe in the power of making bad things before you make good things, so we made this supremely ugly plot to go over some fundamental ggplot theme options, inserting images into plots using magick, and arranging them using patchwork.\n\n\n\nThe ugliest plot!"
+  },
+  {
+    "objectID": "data-science/figures-in-ggplot/index.html#links",
+    "href": "data-science/figures-in-ggplot/index.html#links",
+    "title": "Figures in {ggplot2}",
     "section": " Links",
-    "text": "Links\n Workshop repo\n Workshop slides\n A very non-scientific report using the visualizations from the workshop"
+    "text": "Links\n Workshop repo\n Rendered code\n Blog summary, where you can find more of my musings about figure making\n\n\n\nThe ugliest plot!"
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html",
+    "href": "data-science/community-analysis-vegan/index.html",
+    "title": "Community analysis with {vegan}",
+    "section": "",
+    "text": "Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html#description",
+    "href": "data-science/community-analysis-vegan/index.html#description",
+    "title": "Community analysis with {vegan}",
+    "section": " Description",
+    "text": "Description\nThis is a workshop on how to use basic community analysis functions in {vegan} to calculate species richness, conduct Principal Components Analysis, and create a non-metric multidimensional scaling plot. The first version of this talk was a speed talk for the Southern California All Hands useR and R-Ladies Meetup. I turned that into a workshop and gave a few different versions: one for EcoDataScience, another for UCSB EEMB, and another for UCSC SCRUBs. We used bird community survey data from Adams and Matthews (2019)."
+  },
+  {
+    "objectID": "data-science/community-analysis-vegan/index.html#links",
+    "href": "data-science/community-analysis-vegan/index.html#links",
+    "title": "Community analysis with {vegan}",
+    "section": " Links",
+    "text": "Links\n GitHub repository\n RPubs: vegan cheat sheet\n Slides from southern CA All Hands useR and R-Ladies Meetup\n\n\n\nNon-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."
   },
   {
     "objectID": "data-science/EEMB-data-management/index.html",

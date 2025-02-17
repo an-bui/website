@@ -203,7 +203,7 @@ div.csl-indent {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="nmds.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="Plot
+<p><a href="nmds.png" class="lightbox" data-description="Plot
 
 showing
 
@@ -235,7 +235,7 @@ and
 
 riparian
 
-(green)" data-glightbox="description: .lightbox-desc-1" title="Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."><img src="nmds.png" class="img-fluid figure-img" alt="Plot showing community dissimilarity of birds between three land types: dry (pink), mixed (yellow), and riparian (green)"></a></p>
+(green)" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types."><img src="nmds.png" class="img-fluid figure-img" alt="Plot showing community dissimilarity of birds between three land types: dry (pink), mixed (yellow), and riparian (green)"></a></p>
 <figcaption>Non-metric multidimentional scaling (NMDS) plot using Bray-Curtis dissimilarity comparing bird communities between three land types.</figcaption>
 </figure>
 </div>
@@ -671,7 +671,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -1,0 +1,29 @@
+---
+title: "SBC LTER data workshop"
+description: "Downloading and visually exploring datasets"
+image: urchin-fig.png
+categories: [workshops]
+editor: source
+---
+
+![](urchin-fig.png){description="A timeseries plot with date on the x-axis and biomass in dry grams per meter squared on the y-axis. Points represent dry biomass of purple and red urchins at Naples Reef, California. Lines connect each point through time from 2014-2024." width="80%" fig-align="center"}
+
+## {{< fa file >}} Description
+
+I work with the [Santa Barbara Coastal LTER](https://sbclter.msi.ucsb.edu/), and have the privilege of working often with [Li Kui](https://sbclter.msi.ucsb.edu/about/people/lkui/), the data manager for the SBC and the Mo'orea Coral Reef LTER. After one of Li's workshops, we got to talking about common data cleaning steps that are useful across many of the LTER's datasets. No matter what dataset you're using, you will probably need to filter the observations to only include what it is you want, select variables you're interested in (and leave the rest), and/or change the contents of a column to better fit your downstream work (e.g. change the values in a "date" column to be understood as dates, rather than character strings).  
+
+Li, [Kyle Emery](https://www.kyle-emery.com/) (a post-doc with the SBC), and I put together a workshop on basic steps for understanding and preparing data using SBC LTER datasets. I wrote a section of the workshop for downloading, cleaning, and visualizing data. At the end of my section, participants have created a basic timeseries plot visualizing biomass of purple and red urchins at Naples Reef between 2014 and 2024.
+
+## {{< fa link >}} Links
+
+{{< fa brands github >}} [GitHub repository](https://github.com/an-bui/sbc-data-workshop)  
+
+{{< fa book >}} [Rendered workshop document](https://an-bui.github.io/sbc-data-workshop/render/visualizing-quarto_RENDER.html)
+
+
+
+
+
+
+
+
