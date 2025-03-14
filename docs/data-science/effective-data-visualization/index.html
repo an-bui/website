@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="warming-stripes.png" class="lightbox" data-description="Ed
+<p><a href="warming-stripes.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-description="Ed
 
 Hawkins’s
 
@@ -217,7 +217,7 @@ from
 
 -
 
-2010." data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Warming Stripes, by Ed Hawkins. Source"><img src="warming-stripes.png" class="img-fluid figure-img" alt="An image where many stripes colored blue to red are arranged in chronological order from left to right. As time moves on to the right, the stripes turn red indicating higher temperatures relative to the average from 1961 - 2010."></a></p>
+2010." data-gallery="quarto-lightbox-gallery-1" title="Warming Stripes, by Ed Hawkins. Source"><img src="warming-stripes.png" class="img-fluid figure-img" alt="An image where many stripes colored blue to red are arranged in chronological order from left to right. As time moves on to the right, the stripes turn red indicating higher temperatures relative to the average from 1961 - 2010."></a></p>
 <figcaption>Warming Stripes, by Ed Hawkins. <a href="https://showyourstripes.info/s/globe">Source</a></figcaption>
 </figure>
 </div>
@@ -647,7 +647,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

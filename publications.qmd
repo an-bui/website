@@ -9,7 +9,7 @@ editor: source
 
 <ol reversed>
 
-<li>Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Variable effects of wildlife and livestock on questing tick abundance across a topographical-climatic gradient." *Ecosphere.* 2024.</li>
+<li>Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Variable effects of wildlife and livestock on questing tick abundance across a topographical-climatic gradient." *Ecosphere.* 2025. [PDF](paper-pdfs/copeland-2025.pdf).</li>
 
 <li> Joyce, FH, JA Rosales, KD Holl, RA Zahawi, **A Bui**, JL Reid. "Active restoration accelerates recovery of tropical forest bird assemblages over two decades." *Biological Conservation.* 2024. [PDF](paper-pdfs/joyce-2024.pdf).</li>
 
