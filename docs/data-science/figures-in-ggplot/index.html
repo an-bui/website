@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I gave a workshop on figure customization using <code>ggplot</code> and associated packages for UCSB EEMB R Seminar in Winter 2023 using the fiddler crab data from <code>lterdatasampler</code>. I <em>strongly</em> believe in the power of making bad things before you make good things, so we made this <em>supremely ugly</em> plot to go over some fundamental <code>ggplot</code> theme options, inserting images into plots using <code>magick</code>, and arranging them using <code>patchwork</code>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="crab_plot_and_hist_2023-02-28.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" data-description="A
+<p><a href="crab_plot_and_hist_2023-02-28.jpg" class="lightbox" data-description="A
 
 two
 
@@ -250,7 +250,7 @@ is
 
 a
 
-histogram." title="The ugliest plot!"><img src="crab_plot_and_hist_2023-02-28.jpg" class="img-fluid figure-img" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram."></a></p>
+histogram." data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The ugliest plot!"><img src="crab_plot_and_hist_2023-02-28.jpg" class="img-fluid figure-img" alt="A two panel figure with bright green backgrounds. The figure on the left is a plot of crab size as a function of latitude, and the figure on the left is a histogram."></a></p>
 <figcaption>The ugliest plot!</figcaption>
 </figure>
 </div>
@@ -678,7 +678,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
