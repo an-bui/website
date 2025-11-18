@@ -9,6 +9,8 @@ editor: source
 
 <ol reversed>
 
+<li>Welch, ZS, SM Kim, M Liu, **A Bui**, J Grigolite, JL Jones, MD Iglesias-Rodríguez. “Brucite-inspired ocean alkalinity enhancement alters the biogeochemistry and composition of a phytoplankton community: a Santa Barbara channel case report.” *Environmental Research Letters.* 2025. [PDF](paper-pdfs/welch-2025.pdf).</li>
+
 <li>Miller-ter Kuile, A, **A Bui**, A Apigo, S Lamm, M Swan, JS Sanderlin, K Ogle. “If You're Rare, Should I Care? How Imperfect Detection Changes Relationships Between Biodiversity and Global Change Drivers.” *Global Change Biology.* 2025. [PDF](paper-pdfs/miller-ter-kuile-2025.pdf).</li>
 
 <li>Copeland, S, S Sambado, **A Bui**, D Orr, A Swei, HS Young. "Variable effects of wildlife and livestock on questing tick abundance across a topographical-climatic gradient." *Ecosphere.* 2025. [PDF](paper-pdfs/copeland-2025.pdf).</li>
@@ -42,8 +44,6 @@ editor: source
 ## In review/revision
 
 **Bui, A**, MCN Castorani, BP DiFiore, L Kui, RJ Miller, J Clinton Nelson, DC Reed, AC Stier. "Foundation species recovery yields inconsistent recovery of associated community: a long-term experiment." [Authorea preprint](https://doi.org/10.22541/au.173639570.06246065/v1)  
-
-Welch, ZS, SM Kim, M Liu, **A Bui**, J Grigolite, JL Jones, MD Iglesias-Rodríguez. “Brucite-Inspired Ocean Alkalinity Enhancement Alters the Biogeochemistry and Composition of a Santa Barbara Channel Phytoplankton Community.”  
 
 Orr, D, Z Zilz, E Duge, S Copeland, **A Bui**, CI Motta, A Swei, HS Young. "Context-dependent effects of wildlife and cattle on tick survivorship".  
 

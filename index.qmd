@@ -22,9 +22,11 @@ toc: false
 
 ## About me
 
-I am a community ecologist at UC Santa Barbara in the Ecology, Evolution, and Marine Biology department. I use trait-based approaches to understand community responses to disturbance. Currently, I work in kelp forest systems focusing on algal recovery dynamics in the [Santa Barbara Coastal Long Term Ecological Research site](https://sbclter.msi.ucsb.edu/).  
+I am an Assistant Teaching Professor of Quantitative Methods and Data Science in the [Environmental Studies Program](https://es.ucsb.edu/) at UCSB. I love teaching [data science and statistics](https://an-bui.com/teaching/02_envs-193ds/)! In my past life as a graduate student, I also taught [short-form](https://an-bui.com/teaching/01_eemb-113l/) and [long-form field courses](https://an-bui.com/data-science/cec-r-tutorial/) along with basic theoretical concepts in [ecology](https://an-bui.com/teaching/03_eemb-120/) and [modelling](https://an-bui.com/teaching/04_eemb-179/).  
 
-Starting November 1, I will be an Assistant Teaching Professor of Quantitative Methods and Data Science in the [Environmental Studies Program](https://es.ucsb.edu/) at UCSB! I am really excited to train the next generation of environmental thinkers in open, reproducible practices using real-world, local research and applied examples. Please get in touch if you are interested in collaborating!
+In addition to being a teacher, I consider myself a community ecologist. In my ecological research, I use trait-based approaches to understand community responses to disturbance. I have experience working in [giant kelp forest systems off the Santa Barbara coast](https://sbclter.msi.ucsb.edu/), [tropical Pacific island atolls](https://an-bui.com/fieldwork#palmyra-atoll-usa), and [California oak woodlands](https://an-bui.com/fieldwork#tejon-ranch-conservancy-california), to name a few of the many systems I have grown to love through field work.
+
+I'm always excited to collaborate on new projects (especially those with a field component)! Please get in touch if you're interested in working together.
 
 ------------------------------------------------------------------------
 
@@ -32,7 +34,7 @@ Starting November 1, I will be an Assistant Teaching Professor of Quantitative M
 
 <p class="custom-subtitle">
 
-**PhD Candidate**
+**Assistant Teaching Professor**
 
 </p>
 
@@ -47,6 +49,18 @@ University of California, Santa Barbara
 ## Education
 
 ::: topbr
+<p class="custom-subtitle">
+
+{{< fa graduation-cap title="A graduation cap" >}} **PhD in Ecology, Evolution & Marine Biology, 2025**
+
+</p>
+
+<p class="custom-subtitle2">
+
+University of California, Santa Barbara
+
+</p>
+
 <p class="custom-subtitle">
 
 {{< fa graduation-cap title="A graduation cap" >}} **MA in Ecology, Evolution & Marine Biology, 2020**
