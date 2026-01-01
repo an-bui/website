@@ -18,6 +18,8 @@ website:
         href: data-science.qmd
       - text: Fieldwork
         href: fieldwork.qmd
+      - text: Letters of Rec
+        href: letters-of-recommendation.qmd
       - text: CV
         href: CV/Bui-An_CV.pdf
       - text: Prints
