@@ -7,13 +7,13 @@ editor: source
 
 A letter of rec should speak to your abilities and fit for the position you're applying for. Thus, the person writing that letter should be able to attest to your potential success in that position!  
 
-Your letter writer should be able to write a _strong_, _specific_ letter to endorse you for a given position. A _vague_, _generic_ letter is very much a detriment - for most jobs or grad schools, you would be in the best position possible if you get a strong letter speaking to your specific expertise.  
+Your letter writer should be able to write a _strong_, _specific_ letter to endorse you for a given position. A _vague_, _generic_ letter is a detriment to you - for most jobs or grad schools, you would be in the best position possible if you get a strong letter speaking to your specific expertise.  
 
 Unfortunately, not all professors can write you a strong letter. If you attended class but never spoke to me about anything other than class information, I wouldn't be able to write you a strong letter because I don't know what your goals are, your plans for the future, etc. 
 
-## Why would you ask me for a letter of recommendation?
+## What do you typically include in a letter of rec?
 
-If we have worked together in class or in a research mentorship context, I am likely someone you are considering to write you a letter of recommendation. In letters, I typically discuss:  
+In letters, I typically discuss:  
 
 - your abilities to problem solve  
 - any projects or assignments you've done that stand out  
@@ -34,13 +34,13 @@ Please note that these are rough suggestions but not requirements. You are the b
 
 ## If I do these things, am I guaranteed to get a letter from you?
 
-_No_. I will seriously consider any request for a letter. However, if there is any reason I would not be able to write you a strong letter, I will tell you directly.  
+_No_. I will seriously consider any request for a letter. However, I cannot write you a strong letter, I will tell you directly.  
 
-Additionally, if you are applying to the [Bren Masters in Environmental Data Science program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science), I may ask you to come in for a one-on-one meeting to discuss the program further.
+Additionally, if you are applying to the [Bren Masters in Environmental Data Science program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science), I may ask you for a one-on-one meeting to discuss the program further.
 
-## Still want a letter from me?
+## I am sure I want a letter from you! What do I do?
 
-Email me directly with the following information:  
+Email me with the following information:  
 
 - some basic information about you (how we know each other, some assignments/projects you worked on with me that demonstrate the development of your skills and abilities)  
 - the jobs/schools you are applying for  
